@@ -1,16 +1,144 @@
 // Import Google fonts
-@import url('https://fonts.googleapis.com/css?family=Nunito:400,700|Work+Sans:400,700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;600;700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Abril+Fatface&display=swap');
 
-// Define fonts for body and headers
-$body-font: "Work Sans", "Helvetica", "sans-serif";
-$headers-font: "Nunito", "Helvetica", "sans-serif";
+// Default fonts
+$body-font: "Poppins", "sans-serif";
+$headers-font: "Abril Fatface", "cursive";
 
-// To use a font file (.woff) uncomment following lines
-// @font-face {
-//   font-family: "Font Name";
-//   src: font-url('FontFile.eot');
-//   src: font-url('FontFile.eot?#iefix') format('embedded-opentype'),
-//        font-url('FontFile.woff') format('woff'),
-//        font-url('FontFile.ttf') format('truetype')
-// }
-// $my-font: "Font Name";
+
+// Style guide
+
+.heading-01 {
+  font-family: $headers-font;
+  font-weight: 800;
+  font-size: 6.5rem;
+  line-height: 146px;
+  letter-spacing: 2px;
+  text-transform: uppercase;
+}
+
+.heading-02 {
+  font-family: $headers-font;
+  font-weight: 800;
+  font-size: 4.5rem;
+  line-height: 100px;
+  letter-spacing: 2px;
+  text-transform: uppercase;
+}
+
+.sub-heading-02 {
+  font-family: $body-font;
+  font-weight: 600;
+  font-size: 3.5rem;
+  line-height: 84px;
+  letter-spacing: 0px;
+}
+
+.heading-03 {
+  font-family: $headers-font;
+  font-weight: 800;
+  font-size: 3rem;
+  line-height:67px;
+  letter-spacing: 1px;
+  text-transform: uppercase;
+}
+
+.sub-heading-03 {
+  font-family: $body-font;
+  font-weight: 600;
+  font-size: 2.5rem;
+  line-height: 60px;
+  letter-spacing: 0px;
+}
+
+.ui-heading-01 {
+  font-family: $body-font;
+  font-weight: 600;
+  font-size: 1.5rem;
+  line-height: 36px;
+  letter-spacing: 0px;
+}
+
+.ui-heading-02 {
+  font-family: $body-font;
+  font-weight: 700;
+  font-size: 1.25rem;
+  line-height: 30px;
+  letter-spacing: 1px;
+}
+
+.ui-regular-01 {
+  font-family: "Poppins";
+  font-weight: 400;
+  font-size: 1rem;
+  line-height: 24px;
+  letter-spacing: 0.4px;
+}
+
+.ui-bold-01 {
+  font-family: $body-font;
+  font-weight: 700;
+  font-size: 1rem;
+  line-height: 24px;
+  letter-spacing: 0.4px;
+}
+
+.ui-underline-01 {
+  font-family: $body-font;
+  font-weight: 400;
+  font-size: 16px, 1rem;
+  line-height: 24px;
+  letter-spacing: 0.4px;
+  text-decoration: underline;
+}
+
+.ui-regular-02 {
+  font-family: $body-font;
+  font-weight: 400;
+  font-size: 0.875rem;
+  line-height: 21px;
+  letter-spacing: 0.4px;
+}
+
+.ui-bold-02 {
+  font-family: $body-font;
+  font-weight: 700;
+  font-size: 0.875rem;
+  line-height: 21px;
+  letter-spacing: 0.4px;
+}
+
+.ui-underline-02 {
+  font-family: $body-font;
+  font-weight: 400;
+  font-size: 14px, 0.875rem;
+  line-height: 21px;
+  letter-spacing: 0.4px;
+  text-decoration: underline;
+}
+
+.ui-regular-03 {
+  font-family: $body-font;
+  font-weight: 400;
+  font-size: 0.75rem;
+  line-height: 18px;
+  letter-spacing: 0.4px;
+}
+
+.ui-bold-03 {
+  font-family: $body-font;
+  font-weight: 700;
+  font-size: 0.75rem;
+  line-height: 18px;
+  letter-spacing: 0.4px;
+}
+
+.ui-underline-03 {
+  font-family: $body-font;
+  font-weight: 400;
+  font-size: 0.75rem;
+  line-height: 18px;
+  letter-spacing: 0.4px;
+  text-decoration: underline;
+}
