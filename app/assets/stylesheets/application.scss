@@ -8,4 +8,9 @@
 
 // Your CSS partials
 @import "components/index";
+@import "components/banner";
+@import "components/button";
+
+// Pages partials
+@import "pages/home";
 @import "pages/index";
