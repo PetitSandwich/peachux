@@ -1,10 +1,73 @@
-// Define variables for your color scheme
+// Brand
 
-// For example:
-$red: #FD1015;
-$blue: #0D6EFD;
-$yellow: #FFC65A;
-$orange: #E67E22;
-$green: #1EDD88;
-$gray: #0E0000;
-$light-gray: #F4F4F4;
+$brand-primary: #0E004D;
+$brand-secondary: #26195F;
+$brand-accent: #E11E6A;
+$brand-gradient: linear-gradient(315deg, rgba(14, 0, 77, 1) 39%, rgba(77, 0, 60, 1) 100%);
+
+// Functionnal
+
+$danger: #DF211B;
+$warning: #FFC75A;
+$success: #0C864B;
+$focus: #2752CE;
+$disabled: #D2CFE5;
+
+// Border
+
+$border-decorative: #D2CFE5;
+$border-interactive: #83818D;
+$border-interactive-hover: #242130;
+$border-interactive-selected: #E11E6A;
+$border-disabled: #D2CFE5;
+
+// Background
+
+$background-primary: #FFFFFF;
+$background-secondary: #F1F0F8;
+$background-disabled: #D2CFE5;
+$background-danger: #F5BCBB;
+$background-warning: #FFEECE;
+$background-success: #B6DBC9;
+$background-gradient: linear-gradient(315deg, rgba(14, 0, 77, 1) 39%, rgba(77, 0, 60, 1) 100%);
+
+// TEXT
+
+// Body
+$brand: #0E004D;
+$heading: #03000F;
+$body: #242130;
+$body-muted: #4E4862;
+$body-disabled: #83818D;
+
+// Link
+$link: #2752CE;
+$link-hover: #133266;
+$link-visited: #8680A6;
+$link-disabled: #83818D;
+
+// Inverse
+$heading-inverse: #FFFFFF;
+$body-inverse: #FFFFFF;
+$body-muted-inverse: #FFFFFF, 0.8;
+$body-muted-inverse: #FFFFFF, 0.6;
+
+// BUTTONS
+
+// Primayry
+$button-primary: #0E004D;
+$button-primary-hover: #26195F;
+$button-primary-active: #3E3270;
+$button-primary-disabled: #F1F0F8;
+
+// Accent
+$button-accent: #E11E6A;
+$button-accent-hover: #D24679;
+$button-accent-active: #D65887;
+$button-accent-disabled: #F1F0F8;
+
+// Inverse
+$button-inverse: #FFFFFF;
+$button-inverse-hover: #FFFFFF, 0.8;
+$button-inverse-active: #FFFFFF, 0.6;
+$button-inverse-disabled: #F1F0F8;
