@@ -1,0 +1,11 @@
+<div class="container">
+  <div class="row justify-content-center">
+    <% @works.each do |work| %>
+        <div class="work-card" style="background-image: url('<%= cl_image_path work.photo.key, height: 420, width: 420, crop: :fill %>')">
+          <%= link_to works_path(@work), class: 'work-card-link' do %>
+          <h1><%= work.name %></h1>
+          <% end %>
+        </div>
+    <% end %>
+  </div>
+</div>

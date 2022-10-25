@@ -1,0 +1,16 @@
+<h1>Edit <%= @work.name %></h1>
+
+<%= simple_form_for(@work) do |f| %>
+
+  <%= f.input :name %>
+
+  <%= f.input :description %>
+
+  <%= f.input :photo, as: :file %>
+  <%= f.submit %>
+<% end %>
+
+<%= link_to "Delete",
+  work_path(@work),
+  data: {turbo_method: :delete, turbo_confirm: "Are you sure?"}
+%>
