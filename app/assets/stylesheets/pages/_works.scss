@@ -1,0 +1,19 @@
+.works {
+  background: $background-gradient;
+  overflow-x: hidden;
+}
+.works h1 {
+  font-size: 6.5rem;
+  padding: 4rem;
+}
+
+@media only screen and (max-width: 600px) {
+  .works h1 {
+      font-size: 3rem;
+      padding: 1rem;
+    }
+}
+
+body {
+  overflow-x: hidden;
+}

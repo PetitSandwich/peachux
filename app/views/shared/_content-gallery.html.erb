@@ -1,0 +1,17 @@
+<div class="container">
+  <h1>Selected work</h1>
+  <div class="row">
+    <div class="justify-content-center">
+        <% @works.each do |work| %>
+          <div class="work-card g-col-md-4 g-col-sm-12 align-content-end flex-wrap">
+            <%= link_to work_path(work.id) do%>
+              <%= cl_image_tag work.photo.key,:class=> "work-card-image", :crop => "fit" %>
+              <div class="work-card-content align-content-end">
+                <h2 class="sub-heading-03"><%= work.name %></h2>
+              </div>
+            <% end %>
+          </div>
+        <% end %>
+    </div>
+  </div>
+</div>
