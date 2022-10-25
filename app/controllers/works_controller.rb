@@ -22,13 +22,11 @@ class WorksController < ApplicationController
   end
 
   def update
-    @work = Work.find(params[:id])
     @work.update(work_params)
     redirect_to work_path(@work)
   end
 
   def destroy
-    @work = Work.find(params[:id])
     @work.destroy
     redirect_to works_path, status: :see_other
   end
