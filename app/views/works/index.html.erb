@@ -1,11 +1,13 @@
-<div class="container">
-  <div class="row justify-content-center">
-    <% @works.each do |work| %>
-        <div class="work-card" style="background-image: url('<%= cl_image_path work.photo.key, height: 420, width: 420, crop: :fill %>')">
-          <%= link_to works_path(@work), class: 'work-card-link' do %>
-          <h1><%= work.name %></h1>
-          <% end %>
-        </div>
-    <% end %>
+<div class="works">
+<h1 class="justify-content-center">Works</h1>
+  <div class="container">
+    <div class="row justify-content-center">
+      <% @works.each do |work| %>
+        <a href="<%= work_path(work) %>" class="col-md-6 col-sm-12 work-card d-flex align-items-end p-4" style="background-image: url('<%= cl_image_path work.photo.key, height: 420, width: 420, crop: :fill %>')">   <!-- `a` tag as wrapper -->
+          <h2 class="work-card-link"><%= work.name %></h2>
+        </a>
+      <% end %>
+    </div>
   </div>
+  <%= render "shared/advantages-block" %>
 </div>

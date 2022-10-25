@@ -5,6 +5,9 @@
 .works h1 {
   font-size: 6.5rem;
   padding: 4rem;
+  text-align: center;
+  font-family: $headers-font;
+  color: $heading-inverse;
 }
 
 @media only screen and (max-width: 600px) {
