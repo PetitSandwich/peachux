@@ -1,0 +1,27 @@
+.link-icon-normal{
+  text-decoration: none;
+  font-family: $body-font;
+  color: $link;
+  &:hover {
+      color: $link-hover;
+      transition-duration: 300ms;
+    }
+  &:focus {
+    background-color: $link;
+    color: $body-inverse;
+    transition-duration: 300ms;
+  }
+  &:active {
+    background-color: $link;
+    color: $body-inverse;
+    transition-duration: 300ms;
+  }
+  &:disabled {
+    color: $link-disabled;
+    transition-duration: 300ms;
+  }
+  &:visited {
+    color: $link-visited;
+    transition-duration: 300ms;
+  }
+}

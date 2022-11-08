@@ -1,0 +1,41 @@
+.about-header {
+  background-color: #FFFFFF;
+  position: relative;
+  top: -400px;
+  padding-top: 8rem;
+  height: 540px;
+}
+.offer {
+  color: $body-inverse;
+  margin-top: 2rem;
+}
+.service {
+  margin: 0.75rem;
+  padding: 1.5rem;
+}
+.about-profile {
+  margin-top: 2rem;
+}
+
+body {
+  overflow-x: hidden;
+  background-color: #F1F0F8;
+}
+
+// Responsive
+
+@media only screen and (max-width: 600px) {
+  .about-header {
+      background-color: #FFFFFF;
+      padding-top: 2rem;
+    }
+
+  .heading-01 {
+    font-size: 3rem;
+    line-height: 3rem;
+  }
+  .service {
+    padding: 1.5rem;
+    margin: 0rem;
+  }
+}
