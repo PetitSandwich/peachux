@@ -1,13 +1,11 @@
 .about-header {
-  background-color: #FFFFFF;
-  position: relative;
-  top: -400px;
-  padding-top: 8rem;
-  height: 540px;
+  padding-top: 20rem;
+  color: $body-inverse;
 }
 .offer {
   color: $body-inverse;
   margin-top: 2rem;
+  margin-bottom: 2rem;
 }
 .service {
   margin: 0.75rem;
@@ -15,6 +13,7 @@
 }
 .about-profile {
   margin-top: 2rem;
+  margin-bottom: 2rem;
 }
 
 body {
@@ -26,11 +25,10 @@ body {
 
 @media only screen and (max-width: 600px) {
   .about-header {
-      background-color: #FFFFFF;
-      padding-top: 2rem;
+      padding-top: 8rem;
     }
 
-  .heading-01 {
+  .heading-02 {
     font-size: 3rem;
     line-height: 3rem;
   }

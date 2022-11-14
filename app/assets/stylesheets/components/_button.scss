@@ -61,7 +61,7 @@
 
 // Normal
 
-.button-accent {
+.button-accent{
   color: $body-inverse;
   font-family: $body-font;
   background-color: $button-accent;
@@ -69,17 +69,21 @@
   border: none;
   padding: 12px 24px 12px 24px;
   transition-duration: 300ms;
+  text-decoration: none;
 
   &:hover {
     background-color: $button-accent-hover;
+    color: #FFFFFF;
     transition-duration: 300ms;
   }
 
   &:active {
+    color: #FFFFFF;
     background-color: $button-accent-active;
   }
 
   &:focus {
+    color: #FFFFFF;
     outline-offset: 2px;
     outline: 2px solid $focus;
   }

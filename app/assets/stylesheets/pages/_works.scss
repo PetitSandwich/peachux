@@ -1,3 +1,5 @@
+// SHOW ----------------------------
+
 .works {
   background: $background-gradient;
   overflow-x: hidden;
@@ -19,4 +21,13 @@
 
 body {
   overflow-x: hidden;
+}
+
+// NEW ----------------------------
+
+.work-new-section {
+  background-color: white;
+  padding: 1rem;
+  border-radius: 1rem;
+  margin-bottom: 2rem;
 }
