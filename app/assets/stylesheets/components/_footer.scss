@@ -1,0 +1,29 @@
+.footer {
+  background-color: $brand-secondary;
+  padding: 4rem 0rem;
+}
+.footer h3 {
+  color: $heading-inverse;
+}
+.footer ul {
+  padding: 0;
+  list-style-type: none;
+}
+.footer li {
+  color: $body-inverse;
+  padding: 0.5rem 0rem;
+}
+.footer li a {
+  color: $body-inverse;
+  text-decoration: none;
+  font-family: $body-font;
+  font-size: 1rem;
+  &:hover {
+    color: $body-muted-hover;
+  }
+}
+.madewith {
+  background-color: $brand-pale-rose;
+  color: $brand-primary;
+  padding: 0.25rem 0rem;
+}

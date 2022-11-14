@@ -1,11 +1,50 @@
-<h1>New Work</h1>
+<div class="container text center">
+  <%= simple_form_for(@work) do |f| %>
+    <div class="row justify-content-center">
+      <div class="col-md-6 col-sm-12">
+      <h1 class="heading-02" style="padding: 2rem 0rem;">New Work</h1>
+        <div class="work-new-section">
+          <h2 class="sub-heading-03">Header</h2>
+          <%= f.input :name %>
 
-<%= simple_form_for(@work) do |f| %>
+          <%= f.input :description %>
 
-  <%= f.input :name %>
+          <%= f.input :photo, as: :file %>
+        </div>
+        <div class="work-new-section">
+          <h2 class="sub-heading-03">Tasks</h2>
+          <%= f.input :task_title %>
 
-  <%= f.input :description %>
+          <%= f.input :tasks %>
 
-  <%= f.input :photo, as: :file %>
-  <%= f.submit %>
-<% end %>
+          <%= f.input :photo, as: :file %>
+
+        </div>
+        <div class="work-new-section">
+          <h2 class="sub-heading-03">Content#1</h2>
+          <%= f.input :content1_title %>
+
+          <%= f.input :content1 %>
+
+          <%= f.input :photo, as: :file %>
+        </div>
+        <div class="work-new-section">
+          <h2 class="sub-heading-03">Focus</h2>
+          <%= f.input :focus_title %>
+
+          <%= f.input :focus %>
+
+        </div>
+        <div class="work-new-section">
+          <h2 class="sub-heading-03">Content#2</h2>
+          <%= f.input :content2_title %>
+
+          <%= f.input :content2 %>
+
+          <%= f.input :photo, as: :file %>
+        </div>
+        <%= f.submit 'Create a new Work', :class => 'button-accent mb-4' %>
+      </div>
+    </div>
+  <% end %>
+</div>

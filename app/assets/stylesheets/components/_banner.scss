@@ -7,7 +7,9 @@
 .about-banner {
   height: 500px;
   overflow-x: hidden;
-  background-image: url(https://res.cloudinary.com/peachux/image/upload/v1667918323/website/about_cover.jpg);
+  background-image: linear-gradient(rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.6)), url(https://res.cloudinary.com/peachux/image/upload/v1668430436/website/About_cover.jpg);
+  background-size: cover;
+  background-position: center;
 }
 
 .banner .heading-01 {
@@ -29,6 +31,10 @@
 // Responsive
 
 @media only screen and (max-width: 600px) {
+  .about-banner {
+      overflow-x: hidden;
+      height: 300px;
+    }
   .banner {
       background-size: cover;
       background-position: right;

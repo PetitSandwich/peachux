@@ -1,5 +1,5 @@
 class PagesController < ApplicationController
-  skip_before_action :authenticate_user!, only: [:home, :about, :index]
+  skip_before_action :authenticate_user!, only: [:home, :about, :index, :works], raise: false
   def index
 
   end
@@ -7,6 +7,9 @@ class PagesController < ApplicationController
 
   end
   def about
+
+  end
+  def works
 
   end
 end
