@@ -35,12 +35,18 @@ class WorksController < ApplicationController
     redirect_to works_path, status: :see_other
   end
 
+  def tasks
+  end
+
+  def kraze
+  end
+
+  # Static pages
+
   private
 
   def work_params
-    params.require(:work).permit(:name, :description, :photo, :task_title,
-      :tasks, :content1_title, :content1, :focus_title, :focus, :content2_title,
-    :content2)
+    params.require(:work).permit(:name, :description, :photo, :tasks)
   end
 
 end

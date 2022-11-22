@@ -4,6 +4,11 @@
   background: $background-gradient;
   overflow-x: hidden;
 }
+.img-placeholder {
+  height: 236px;
+  width: 420px;
+  background-color: grey;
+}
 .works h1 {
   font-size: 6.5rem;
   padding: 4rem;
@@ -11,12 +16,24 @@
   font-family: $headers-font;
   color: $heading-inverse;
 }
-
+.work-block {
+  margin: 2rem 0rem;
+}
+.focus {
+  background: $background-gradient;
+  color: $body-inverse;
+  padding: 2rem 0rem;
+  margin: 4rem 0rem;
+}
 @media only screen and (max-width: 600px) {
   .works h1 {
       font-size: 3rem;
       padding: 1rem;
     }
+  .img-placeholder {
+      width: 327px;
+      height: 193px;
+  }
 }
 
 body {

@@ -1,13 +1,16 @@
-.navbar-lewagon {
+.navbar-peachux {
   justify-content: space-between;
   background: white;
+  border-bottom: solid 1px $border-decorative;
+  position: fixed;
+  top: 0;
 }
 
-.navbar-lewagon .navbar-collapse {
+.navbar-peachux .navbar-collapse {
   flex-grow: 0;
 }
 
-.navbar-lewagon .navbar-brand img {
+.navbar-peachux .navbar-brand img {
   width: 200px;
 }
 .nav-item {
@@ -15,4 +18,20 @@
 }
 .nav-link {
   font-family: $body-font;
+}
+
+@media only screen and (max-width: 600px) {
+
+  .navbar-collapse ul {
+      height: 100vh;
+      overflow-y: hidden;
+    }
+  .nav-item {
+      margin: 1rem 1rem;
+    }
+  .button-calendly-nav {
+    position: absolute;
+    bottom: 64px;
+    text-align: center;
+  }
 }

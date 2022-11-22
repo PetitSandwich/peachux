@@ -5,3 +5,16 @@
   padding: 2rem;
   color: $body-inverse;
 }
+.work-header-image{
+  width:
+}
+@media only screen and (max-width: 600px) {
+  .work-header img {
+    height: 327px;
+    width: 327px;
+  }
+  .work-header-content {
+    width: inherit;
+    padding: 2rem 0rem;
+  }
+}
