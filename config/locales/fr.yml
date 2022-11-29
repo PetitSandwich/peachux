@@ -1,0 +1,72 @@
+fr:
+
+  nav:
+    works: "Clients"
+    about: "A propos"
+    appointment: "Prendre un rendez-vous"
+
+  pages:
+
+    home:
+      services: "Freelance Product Designers à votre service."
+      adopt: "Adopte un designer !"
+
+      works:
+      title: "Clients"
+      next-work: "Autre client"
+
+      accor:
+        description: "As part of the missions proposed by the group, we worked on various optimizations of the booking process as well as on the luxury offer."
+
+        task-title: "Tasks"
+        task-description1: "• Propose improvements related to the display of hotels on the results page during the covid period to improve the user's search and maintain a consistent income."
+        task-description2: "• Take children into account when displaying the total price and include them in the context of finding a room and an overnight stay."
+        task-description3: "• Take over the design system of luxury hotel sites in order to create a graphic consistency."
+        task-description4: "• Display prices adapted to the user context."
+        task-description5: "• Build & Run"
+        task-img-caption: "Consistency all along the booking funnel"
+
+        backlog-title: "Feed your backlog"
+        backlog-description: "The need could come either from user feedback from monitoring tools or from PO teams. Whether in a build or run context, it was always necessary to propose an improvement that could be integrated perfectly into the brand's ecosystem."
+        backlog-img-caption: "Working with your squad is priceless"
+
+        focus-title: "Build & Run"
+        focus-description: "Depending on the type of subject, it was necessary to think about the simplest and most coherent way of responding to the problem, whether it be customer or business. This went through discovery we went through discovery phases together, where the different possible solutions as a team."
+
+        data-title: "Data driven approach"
+        data-description: "As a designer we are used to working with data analysts to improve the quality of your design. Insight permitted us to know better what the user wanted."
+        data-img-caption: "Talk data to me!"
+  partials:
+    testimonials:
+      title: "Témoignages"
+      raphaelle: "Antoine a été intégré à l'équipe UX de Frog pendant près d'un an. Son attitude positive et son esprit pétillant en ont fait un atout pour l'équipe. Il s'intègre aisément et est à l'écoute des demandes clients qu'il n'hésite pas à challenger quand il le faut. Il est force de proposition autant au sein des projets qu'en termes de processus et de méthodologie de travail. La communication avec lui est fluide, ce qui est particulièrement appréciable. C'est un plaisir de travailler avec Antoine."
+      francois: "Travailler avec Antoine était un vrai plaisir de par sa personnalité et la qualité de son travail, force de proposition, sémillant durant ces présentations, des livrables de qualité, pertinent et une grande maturité dans son métier d'ux designer, une personne que je recommande fortement"
+      jc: "Antoine est toujours pertinent dans ses propositions, méticuleux dans son travail d'UI et l'usage du design system. Il maîtrise entre autre Figma. Très bon relationnel, en équipe sur site comme en remote."
+      rodolphe: "Plein de dynamisme dans Antoine. Il s'intéresse à beaucoup de domaine, propose des solutions très pertinentes qu'il sait parfaitement argumenter, très motivé, avec un grand Team spirit. Merci Antoine."
+      noe: "Antoine est un jeune Ux Designer de talent. Sa vivacité d'esprit et ses qualités de pédagogues lui permettent de résoudre des problématiques complexes tout en apportant la sérénité nécessaire aux projets qui lui sont confiés."
+      previous: "Précédent"
+      next: "Suivant"
+
+    advantages:
+      title: "Offre-toi un Product Designer"
+      advantage1-title: "Constuire ton service"
+      advantage1-description: "Site, App, Tunnel de conversion, Flyer pour ton club d'échec ? C'est notre objectif d'itérer sur des réponses aux problématiques de ton business."
+      advantage2-title: "Objectif Recherche, destination Expérience Utilisateur"
+      advantage2-description: "Ton utilisateur est ton futur consommateur, il est primordial de savoir comment il boit son caféafin de lui proposer les meilleurs parcours."
+      advantage3-title: "Design system, tokens, les guidelines du turfu"
+      advantage3-description: "Un bon design system, une bonne documentation, ça ne mange pas de pain. Une grammaire visuelle et sémantique pour tous•tes."
+      button: "Qui sont ces gens ?"
+
+    newsletter:
+      title: "Ne reste pas en chien, ne rate rien !"
+      description: "Tu pourras avoir du contenu exclu et des promos."
+      email-example: " exemple : nom@taboite.com"
+      email-placeholder: "nom@taboite.com"
+      button: "C'est parti mon kiki !"
+
+    footer:
+      services: "Services"
+      home: "Accueil"
+      works: "Clients"
+      about: "A propos"
+      follow: "Nous suivre"

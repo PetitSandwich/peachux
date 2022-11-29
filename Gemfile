@@ -30,6 +30,9 @@ gem "jbuilder"
 # Devise
 gem "devise"
 
+# I18n
+gem "rails-i18n"
+
 # Autoprefixer
 gem "autoprefixer-rails"
 

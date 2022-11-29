@@ -1,33 +1,77 @@
-# Files in the config/locales directory are used for internationalization
-# and are automatically loaded by Rails. If you want to use locales other
-# than English, add the necessary files in this directory.
-#
-# To use the locales, use `I18n.t`:
-#
-#     I18n.t "hello"
-#
-# In views, this is aliased to just `t`:
-#
-#     <%= t("hello") %>
-#
-# To use a different locale, set it with `I18n.locale`:
-#
-#     I18n.locale = :es
-#
-# This would use the information in config/locales/es.yml.
-#
-# The following keys must be escaped otherwise they will not be retrieved by
-# the default I18n backend:
-#
-# true, false, on, off, yes, no
-#
-# Instead, surround them with single quotes.
-#
-# en:
-#   "true": "foo"
-#
-# To learn more, please read the Rails Internationalization guide
-# available at https://guides.rubyonrails.org/i18n.html.
-
 en:
-  hello: "Hello world"
+
+  nav:
+    works: "Clients"
+    about: "About us"
+    appointment: "Make an appointment"
+    adopt: "Adopt a designer!"
+
+  pages:
+
+    home:
+      services: "Freelance Product Designers at your service."
+
+    works:
+      title: "Works"
+      next-work: "Next work"
+
+      accor:
+        description: "As part of the missions proposed by the group, we worked on various optimizations of the booking process as well as on the luxury offer."
+
+        task-title: "Tasks"
+        task-description1: "• Propose improvements related to the display of hotels on the results page during the covid period to improve the user's search and maintain a consistent income."
+        task-description2: "• Take children into account when displaying the total price and include them in the context of finding a room and an overnight stay."
+        task-description3: "• Take over the design system of luxury hotel sites in order to create a graphic consistency."
+        task-description4: "• Display prices adapted to the user context."
+        task-description5: "• Build & Run"
+        task-img-caption: "Consistency all along the booking funnel"
+
+        backlog-title: "Feed your backlog"
+        backlog-description: "The need could come either from user feedback from monitoring tools or from PO teams. Whether in a build or run context, it was always necessary to propose an improvement that could be integrated perfectly into the brand's ecosystem."
+        backlog-img-caption: "Working with your squad is priceless"
+
+        focus-title: "Build & Run"
+        focus-description: "Depending on the type of subject, it was necessary to think about the simplest and most coherent way of responding to the problem, whether it be customer or business. This went through discovery we went through discovery phases together, where the different possible solutions as a team."
+
+        data-title: "Data driven approach"
+        data-description: "As a designer we are used to working with data analysts to improve the quality of your design. Insight permitted us to know better what the user wanted."
+        data-img-caption: "Talk data to me!"
+
+
+
+
+  partials:
+
+    testimonials:
+      title: "They trusted Peach'ux"
+      raphaelle: "Antoine has been part of the Frog UX team for almost a year. His positive attitude and bubbly spirit have made him an asset to the team. He integrates easily and is attentive to customer requests, which he does not hesitate to challenge when necessary. He is a force of proposal as much within the projects as in terms of process and work methodology. Communication with him is fluid, which is particularly appreciated. It is a pleasure to work with Antoine."
+      francois: "Working with Antoine was a real pleasure because of his personality and the quality of his work, force of proposal, lively during his presentations, quality deliverables, relevant and a great maturity in his job of ux designer, a person I strongly recommend."
+      jc: "Antoine is always relevant in his proposals, meticulous in his UI work and the use of the design system. He masters among other things Figma. Very good relational, in team on site as in remote."
+      rodolphe: "Full of dynamism in Antoine. He is interested in many fields, proposes very relevant solutions that he knows how to argue perfectly, very motivated, with a great team spirit. Thank you Antoine."
+      noe: "Antoine is a young talented Ux Designer. His liveliness of mind and his teaching skills allow him to solve complex problems while bringing the necessary serenity to the projects he is entrusted with."
+      previous: "Previous"
+      next: "Next"
+
+    advantages:
+      title: "Get your own Product Designer"
+      advantage1-title: "Bulding your service"
+      advantage1-description: "Website, app, flyer for your chess club ?It’s our goal to ideate and find some nice responses for your business (and its revenue!)"
+      advantage2-title: "Research and eXperience as goals"
+      advantage2-description: "Your user is your future consumer, it is mandatory to know how he's drinking his coffee to propose the best userflows."
+      advantage3-title: "Design System, graphic grammary"
+      advantage3-description: "Ok... Sex is cool, but less cool as a documented and organized design system as we do."
+      button: "How dare we?"
+
+    newsletter:
+      title: "Don't miss out on any opportunity"
+      description: "Stay tuned, you could have some real nice offers!"
+      email-example: " example: name@company.com"
+      email-placeholder: "name@company.com"
+      button: "Let's get it started!"
+
+    footer:
+      services: "Services"
+      home: "Home"
+      works: "Work"
+      about: "About"
+      follow: "Follow us"

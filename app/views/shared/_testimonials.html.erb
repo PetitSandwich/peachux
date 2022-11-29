@@ -1,34 +1,38 @@
 <div class="testimonials">
   <div class="container">
-    <h2 class="text-center sub-heading-02">They trust Peach'UX</h2>
+    <h2 class="text-center sub-heading-02"><%= t "partials.testimonials.title" %></h2>
     <div id="carouselExampleControls" class="carousel slide" data-bs-ride="carousel">
     <div class="row justify-content-center">
       <div class="col-md-6 col-sm-12" >
         <div class="carousel-inner">
           <div class="carousel-item active testimony">
-            <p>Working with Antoine was a real pleasure because of his personality and the quality of his work, force of proposal, lively during his presentations, quality deliverables, relevant and a great maturity in his job of ux designer, a person I strongly recommend.</p>
+            <p><%= t "partials.testimonials.raphaelle" %></p>
+            <h4 class="ui-bold-01 text-center">Raphaëlle Montefiore - Frog (part of Capgemini Invent)</h4>
+          </div>
+          <div class="carousel-item testimony">
+            <p><%= t "partials.testimonials.francois" %></p>
             <h4 class="ui-bold-01 text-center">François Chaillot - Freelance</h4>
           </div>
           <div class="carousel-item testimony">
-            <p>Antoine is always relevant in his proposals, meticulous in his UI work and the use of the design system. He masters among other things Figma. Very good relational, in team on site as in remote.</p>
-            <h4 class="ui-bold-01 text-center">Loïc Besson - ACCOR Live Limitless</h4>
+            <p><%= t "partials.testimonials.jc" %></p>
+            <h4 class="ui-bold-01 text-center">JC Besson - ACCOR Live Limitless</h4>
           </div>
           <div class="carousel-item testimony">
-            <p>Full of dynamism in Antoine. He is interested in many fields, proposes very relevant solutions that he knows how to argue perfectly, very motivated, with a great team spirit. Thank you Antoine.</p>
+            <p><%= t "partials.testimonials.rodolphe" %></p>
             <h4 class="ui-bold-01 text-center">Rodolphe Marinier - ACCOR Live Limitless</h4>
           </div>
           <div class="carousel-item testimony">
-            <p>Antoine is a young talented Ux Designer. His liveliness of mind and his teaching skills allow him to solve complex problems while bringing the necessary serenity to the projects he is entrusted with.</p>
+            <p><%= t "partials.testimonials.noe" %></p>
             <h4 class="ui-bold-01 text-center">Noé Melon - Castor & Pollux</h4>
           </div>
         </div>
         <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleControls" data-bs-slide="prev">
           <span class="carousel-control-prev-icon" aria-hidden="true"></span>
-          <span class="visually-hidden">Previous</span>
+          <span class="visually-hidden"><%= t "testimonials.control.previous" %></span>
         </button>
         <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleControls" data-bs-slide="next">
           <span class="carousel-control-next-icon" aria-hidden="true"></span>
-          <span class="visually-hidden">Next</span>
+          <span class="visually-hidden"><%= t "testimonials.control.next" %></span>
         </button>
       </div>
     </div>
