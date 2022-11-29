@@ -11,4 +11,8 @@ Rails.application.routes.draw do
   root "pages#home"
   get "about", to: "pages#about"
   get "works", to: "works#index"
+  get "kraze", to: "works#kraze"
+  get "lcl", to: "works#lcl"
+  get "cryptopassion", to: "works#cryptopassion"
+  get "accor", to: "works#accor"
 end

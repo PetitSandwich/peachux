@@ -136,10 +136,21 @@
     color: $button-primary-hover;
   }
 }
+.button-advantage {
+  text-decoration: none;
+
+  &:hover {
+    color: $body-inverse;
+    padding: 12px 24px 12px 24px;
+  }
+}
 // MEDIA QUERIES -----------------------------
 @media only screen and (max-width: 600px) {
-  .button-primary, .button-primary-inverse, .button-accent, .button-accent-inverse {
-    width: 100%;
+  .button-primary, .button-primary-inverse, .button-accent, .button-accent-inverse, .button-advantage, .button-next {
+    width: 100% !important;
+  }
+  .button-next {
+    margin-top: 2rem;
   }
   .button-back {
     background-color: white;

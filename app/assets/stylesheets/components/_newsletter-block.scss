@@ -2,8 +2,14 @@
   background: $background-gradient;
   padding: 4rem 0rem 4rem 0rem;
   color: $body-inverse;
+  overflow-x: hidden;
 }
 .white-icon {
   color: $body-inverse;
   font-size: 48px;
+}
+@media only screen and (max-width: 600px) {
+  .newsletter-text {
+    width: 343px;
+  }
 }

@@ -6,12 +6,14 @@
   color: $body-inverse;
 }
 .work-header-image{
-  width:
+  width: 753px;
+  background-size: cover;
 }
 @media only screen and (max-width: 600px) {
   .work-header img {
     height: 327px;
     width: 327px;
+    background-size: cover;
   }
   .work-header-content {
     width: inherit;

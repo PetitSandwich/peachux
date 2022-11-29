@@ -2,11 +2,18 @@
 <h1 class="justify-content-center">Works</h1>
   <div class="container">
     <div class="row justify-content-center">
-      <% @works.each do |work| %>
-        <a href="<%= work_path(work) %>" class="col-md-4 col-sm-12 work-card d-flex align-items-end p-4" style="background-image: url('<%= cl_image_path work.photo.key, height: 420, width: 420, crop: :fill %>')">
-          <h2 class="work-card-link"><%= work.name %></h2>
-        </a>
-      <% end %>
+      <a href="<%= accor_path %>" class="col-md-4 col-sm-12 work-card d-flex align-items-end p-4" style="background-image: url(https://res.cloudinary.com/peachux/image/upload/v1669124778/website/Accor_cover.jpg)">
+        <h2 class="work-card-link">Accor</h2>
+      </a>
+      <a href="<%= kraze_path %>" class="col-md-4 col-sm-12 work-card d-flex align-items-end p-4" style="background-image: url(https://res.cloudinary.com/peachux/image/upload/v1669124771/website/Kraze_cover.jpg)">
+        <h2 class="work-card-link">Kraze</h2>
+      </a>
+      <a href="<%= lcl_path %>" class="col-md-4 col-sm-12 work-card d-flex align-items-end p-4" style="background-image: url(https://res.cloudinary.com/peachux/image/upload/v1669124803/website/Lcl_cover.jpg)">
+        <h2 class="work-card-link">LCL</h2>
+      </a>
+      <a href="<%= cryptopassion_path %>" class="col-md-4 col-sm-12 work-card d-flex align-items-end p-4" style="background-image: url(https://res.cloudinary.com/peachux/image/upload/v1669124787/website/CP_cover.jpg)">
+        <h2 class="work-card-link">CryptoPassion</h2>
+      </a>
     </div>
   </div>
   <%= render "shared/advantages-block" %>

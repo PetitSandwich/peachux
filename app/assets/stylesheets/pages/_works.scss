@@ -4,6 +4,11 @@
   background: $background-gradient;
   overflow-x: hidden;
 }
+.works-img {
+  height: 236px;
+  width: 420px;
+  background-size: cover;
+}
 .img-placeholder {
   height: 236px;
   width: 420px;
@@ -33,6 +38,14 @@
   .img-placeholder {
       width: 327px;
       height: 193px;
+  }
+  .works-img {
+    width: 327px;
+    height: 193px;
+  }
+  .kraze-screen {
+    width: 327px;
+    margin-bottom: 1.5rem;
   }
 }
 

@@ -12,4 +12,7 @@ class PagesController < ApplicationController
   def works
 
   end
+  def kraze
+
+  end
 end
