@@ -11,6 +11,35 @@ en:
     home:
       services: "Freelance Product Designers at your service."
 
+    about:
+      title: "About Peach'UX"
+      description: "Design is a language, and we want to talk with you."
+
+      offer-title: "Product Design Consulting"
+      offer1: "• Studying your users and their needs"
+      offer2: "• Defining the challenges"
+      offer3: "• Finding creative ways to solve their problems"
+      offer4: "• Prototype and mockup the whole solution"
+      offer5: "• Testing, testing, and... testing"
+
+      services-title: "Our Skills"
+      services1: "• UX/UI design"
+      services2: "• Design thinking"
+      services3: "• Design system"
+      services4: "• Copyrighting"
+      services5: "• Prototyping"
+      services6: "• User research"
+      services7: "• HTML/CSS/JS/ Ruby on rails"
+      services8: "• CMS (Wordpress)"
+
+      profiles: "Profiles"
+      profile1-description: "Sassy Product Designer"
+      profile2-description: "Real CEO"
+      price-per-day: "Price per day"
+      kibbles: "kibbles"
+      per-day: "/day"
+      see-the-resume: "See the resume"
+
     works:
       title: "Works"
       next-work: "Next work"
