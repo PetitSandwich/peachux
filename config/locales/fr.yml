@@ -11,31 +11,104 @@ fr:
       services: "Freelance Product Designers à votre service."
       adopt: "Adopte un designer !"
 
-      works:
+    works:
       title: "Clients"
       next-work: "Autre client"
+      see-all-works: "Voir tous les clients"
 
-      accor:
-        description: "As part of the missions proposed by the group, we worked on various optimizations of the booking process as well as on the luxury offer."
+    accor:
+      description: "Dans le cadre des missions proposées par le groupe nous avons travaillé sur différentes optimisations du parcours de réservation ainsi que sur l’offre luxe."
 
-        task-title: "Tasks"
-        task-description1: "• Propose improvements related to the display of hotels on the results page during the covid period to improve the user's search and maintain a consistent income."
-        task-description2: "• Take children into account when displaying the total price and include them in the context of finding a room and an overnight stay."
-        task-description3: "• Take over the design system of luxury hotel sites in order to create a graphic consistency."
-        task-description4: "• Display prices adapted to the user context."
-        task-description5: "• Build & Run"
-        task-img-caption: "Consistency all along the booking funnel"
+      task-title: "Missions"
+      task-description1: "• Proposer des améliorations liées à l’affichage des hôtels sur la page de résultats pendant la période du covid pour faciliter la recherche de l’utilisateur et maintenir un revenu conséquent."
+      task-description2: "• Prendre en compte les enfants dans l’affichage du prix total et les inclure dans le contexte de recherche d’une chambre et d’une nuitée"
+      task-description3: "• Reprendre le design system des sites d’hôtellerie de luxe afin de créer une consistance graphique."
+      task-description4: "• Afficher des prix adaptés au contexte utilisateur"
+      task-description5: "• Build & Run"
+      task-img-caption: "Avoir un parcours de réservation cohérent"
 
-        backlog-title: "Feed your backlog"
-        backlog-description: "The need could come either from user feedback from monitoring tools or from PO teams. Whether in a build or run context, it was always necessary to propose an improvement that could be integrated perfectly into the brand's ecosystem."
-        backlog-img-caption: "Working with your squad is priceless"
+      backlog-title: "Backlog 'n' roll"
+      backlog-description: "Le besoin provenait soit des retours utilisateurs portés par les outils de monitoring soit des équipes de Product Owners. Que ce soit dans un contexte de build ou de run, il fallait toujours proposer une amélioration qui puisse s’intégrer parfaitement à l’écosystème de la marque."
+      backlog-img-caption: "Travailler en équipe pour plus d’efficacité"
 
-        focus-title: "Build & Run"
-        focus-description: "Depending on the type of subject, it was necessary to think about the simplest and most coherent way of responding to the problem, whether it be customer or business. This went through discovery we went through discovery phases together, where the different possible solutions as a team."
+      focus-title: "Build & Run"
+      focus-description: "Selon le type de sujet il était nécessaire de réfléchir à la façon la plus simple et la plus cohérente de répondre à la problématique qu’elle soit client ou métier. Cela passait par des phases de discovery où on étudiait en équipe les différentes solutions possibles."
 
-        data-title: "Data driven approach"
-        data-description: "As a designer we are used to working with data analysts to improve the quality of your design. Insight permitted us to know better what the user wanted."
-        data-img-caption: "Talk data to me!"
+      data-title: "Jamais sans ma Data"
+      data-description: "Le besoin peut provenir soit des retours utilisateurs des outils de monitoring, soit des équipes PO. Que ce soit dans un contexte de build ou de run, il a toujours fallu proposer une amélioration qui s'intègre parfaitement dans l'écosystème de la marque."
+      data-img-caption: "De la data comme s’il en pleuvait"
+
+    kraze:
+      description: "Kraze est une application qui permet de mettre en relation les fêtards et les annonceurs de soirées techno dans un contexte de soirée."
+
+      goals-title: "Objectifs"
+      goals-description_html: "Dans le but d'intégrer un accelérateur de startup, Kraze a fait appel à mes services afin de travailler sur une V2 de leur application.<br> Ayant recentré leur business model sur le référencement des soirées et l'aspect social de l'app, les deux créateurs souhaitaient avoir une refonte de leur ancien design ainsi qu'un prototype fonctionnel mettant en avant le parcours utilisateur."
+      goals-img-caption: "Créer du liens en les annonceurs et les technophiles"
+
+      architecture-title: "Architecture de l'info"
+      architecture-description: "Pour mieux connaitre le produit et ses spécificité, nous avons organisé un atelier de divergence sur l'arborescence de l'app. Nous avons re-construit l'architecture de l'information pour qu'elle puisse davantage convenir aux usages de la cible."
+      architecture-img-caption1: "Construire l'arborescence avec le client"
+      architecture-img-caption2: "Architecture de l’info, agencement des contenus"
+
+      focus-title: "Ecrans"
+      focus-home: "Page d'accueil"
+      focus-post: "Vue d'un post"
+      focus-event: "Vue d'un évenement"
+
+      ds-title: "Création de la librairie et de tous les legos"
+      ds-description: "Une fois cette priorisation effectuée, j'ai mis en place les bases d'un design system sur sketch permettant d'avoir une librarie dynamique de composants. Cela m'a permis d'instaurer des grands principes de navigation, de travailler sur la granularité des contenus et sur la navigation."
+      ds-img-caption: "Construction du design system"
+
+      proto-title: "Donner vie au proto"
+      proto-description: "Une fois les parcours validés, j'ai intégré les contenus et maquetté l'application de façon à ce que les composants puissent servir à construire le prototype."
+      proto-img-caption: "L'idée était de faire un prototype pour le présenter à Y Combinator"
+
+    lcl:
+      description: "LCL est la banque française des milieux urbains. En 2022, la bascule de son site a été opérée. Il a fallu donc mettre le parcours et ses fonctionnalités au goût du jour."
+
+      task-title: "Missions"
+      task-description1: "• Amélioration du parcours de crédit immobilier"
+      task-description2: "• Navigation globale et menu : Retravailler la hiérarchie de l’information pour offrir à l’utilisateur une expérience de navigation agréable et cohérente"
+      task-description3: "• Ajout de fonctionnalités au parcours de virement"
+      task-description4: "• Build & Run"
+      task-img-caption: "LCL est La banque des milieux urbains"
+
+      credit-title: "Comment rendre son crédit immo plus interactif ?"
+      credit-description1: "L’amélioration du parcours de crédit immobilier s’est articulée autour de différents axes de modificiation."
+      credit-description2: "Nous avons donc réalisé des interviews de souscripteurs à des prêts, de conseillers bancaires, et de coach immobilier. Une fois les insights collectés, nous étions en mesure de réaliser des wireframes cohérents avec les usages des utilisateurs ainsi qu’un prototype modélisant les différentes actions qu’une souscripteur d’un prêt peut réaliser."
+      credit-img-caption: "Les interviews nous ont permis de plonger tête baissée dans l’univers du crédit immobilier"
+
+      navigation-title: "Reprise de l’arborescence et parti-pris de navigation"
+      navigation-description1: "Dans le contexte de la refonte de l’espace bancaire vers sa nouvelle version, il a été nécessaire de s’interroger sur les modèles mentaux de l’utilisateur à propos de sa perception de l’arborescence du site."
+      navigation-description2: "Suite à ce besoin nous avons organisé avec le client des ateliers afin de mieux comprendre quel étaient les enjeux d’architecture de l’information. Ces résultats nous ont permis de valider des structures de pages et des principes de navigation."
+      navigation-img-caption: "Workshop avec le client"
+
+      transfer-title: "Ajouts de fonctionnalités du parcours de virement"
+      transfer-description1: "Lors de la reprise de parcours de l’ancienne version (version avant la bascule), de nombreux parcours ont nécessité d’être revus et modifiés pour correspondre à la vision actuelle."
+      transfer-description2: "Ces révisions de parcours ont permis de se poser des questions de fond sur l’utilisation des différents services liés au virements."
+      transfer-description3: "Dans cette démarche, plusieurs parcours ont été adaptés tels que l’ajout de bénéficiaire, la modification des plafonds ou pays de virement en passant par la consultation des virements programmés."
+      transfer-img-caption: "Le virement est la fonctionnalité principale d'une app bancaire."
+
+    cryptopassion:
+      description: "Depuis 2017 l'adoption du Bitcoin et la compréhension de sa technologie, la blockchain, ne cessent d'attirer de plus en plus d'adopteurs."
+
+      goals-title: "Objectifs"
+      goals-description: "CryptoPassion vend du contenu éducatif et de la formation à l'investissement. La cible est assez jeune et complètement au fait des usages lié à la gestion d'actifs numériques. Il m'a été demandé d'analyser et d'étudier cette cible en vue de concevoir une base d'un storytelling de marque pour CryptoPassion."
+      goals-img-caption: "CryptoPassion, le carrefour de la bonne info crypto"
+
+      quantitative-title: "Etude Quantitative"
+      quantitative-description: "Pour déterminer les comportements d'investissement, les palliers d'investissement ou encore la psychologie d'un investisseur vis à vis du marché, il a été nécessaire d'étudier cette cible en profondeur et de passer par une étude quantitative sous la forme d'un questionnaire. Les résultats nous ont permis d'apporter de la clarté sur le degré de connaissance de la cible et nous avons déterminé un profil type lors de la synthèse des résultats."
+      quantitative-img-caption: "Un questionnaire a été partagé pour comprendre les usages des crypto-investisseurs."
+
+      qualitative-title: "Etude qualitative"
+      qualitative-description: "Une fois la synthèse des résultats du questionnaire quantitative obtenue, j'ai alors mené des entretiens avec différentes typologies d'investisseurs afin d'établir une cartographie de la cryptosphère et de ses acteurs. Ce mapping nous a permis d'aiguiller nos choix dans la conception graphique de l'identité et la charte du service."
+      qualitative-img-caption: "Nous avons mené plusieurs interview afin de saisir quels étaient les gains et les freins des investisseurs"
+
+      storytelling-title: "Ecrire la bonne histoire pour les bons clients"
+      storytelling-description: "Fort des insights, j’ai pu m’atteler à la conception du logo et de la charte graphique qui en découle. Les valeurs des futurs clients ont été traitées par un choix de couleur fort de sens (Cocorico !) ainsi qu’un pictogramme du pourcentage qui est une narrative classique de la cible."
+      storytelling-img-caption1: "Crétion de l’identité visuelle"
+      storytelling-img-caption2: "Construction du storytelling"
+
   partials:
     testimonials:
       title: "Témoignages"

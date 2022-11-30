@@ -8,7 +8,7 @@
       </div>
       <div class="col-md-5 col-sm-12 work-header-content d-flex align-content-end flex-wrap offset-md-0 ps-4" >
         <h1 class="heading-02">Accor</h1>
-        <p class="ui-regular-01">As part of the missions proposed by the group, we worked on various optimizations of the booking process as well as on the luxury offer.</p>
+        <p class="ui-regular-01"><%= t "pages.accor.description" %></p>
       </div>
     </div>
   </div>
@@ -18,16 +18,16 @@
   <div class="work-block">
     <div class="row justify-content-center">
       <div class="col-md-4 col-sm-12">
-        <h2 class="sub-heading-03 mb-3">Tasks</h2>
-        <p class="ui-regular-01">Propose improvements related to the display of hotels on the results page during the covid period to improve the user's search and maintain a consistent income.</p>
-        <p class="ui-regular-01">Take children into account when displaying the total price and include them in the context of finding a room and an overnight stay.</p>
-        <p class="ui-regular-01">Take over the design system of luxury hotel sites in order to create a graphic consistency.</p>
-        <p class="ui-regular-01">Display prices adapted to the user context.</p>
-        <p class="ui-regular-01">Build & Run</p>
+        <h2 class="sub-heading-03 mb-3"><%= t "pages.accor.task-title" %></h2>
+        <p class="ui-regular-01"><%= t "pages.accor.task-description1" %></p>
+        <p class="ui-regular-01"><%= t "pages.accor.task-description2" %></p>
+        <p class="ui-regular-01"><%= t "pages.accor.task-description3" %></p>
+        <p class="ui-regular-01"><%= t "pages.accor.task-description4" %></p>
+        <p class="ui-regular-01"><%= t "pages.accor.task-description5" %></p>
       </div>
       <div class="col-md-4 col-sm-12">
         <img src="https://res.cloudinary.com/peachux/image/upload/v1669124778/website/Accor_goals.jpg" alt="Accor goals" class="works-img">
-        <p class="ui-regular-03 caption pt-2">Consistency all along the booking funnel</p>
+        <p class="ui-regular-03 caption pt-2"><%= t "pages.accor.task-img-caption" %></p>
       </div>
     </div>
   </div>
@@ -38,11 +38,11 @@
     <div class="row justify-content-center">
       <div class="col-md-4 col-sm-12">
         <img src="https://res.cloudinary.com/peachux/image/upload/v1669124780/website/Accor_backlog.jpg" alt="Accor backlog" class="works-img">
-        <p class="ui-regular-03 caption pt-2">Working with your squad is priceless</p>
+        <p class="ui-regular-03 caption pt-2"><%= t "pages.accor.backlog-img-caption" %></p>
       </div>
       <div class="col-md-4 col-sm-12">
-        <h2 class="sub-heading-03 mb-3">Feed your Backlog</h2>
-        <p class="ui-regular-01">The need could come either from user feedback from monitoring tools or from PO teams. Whether in a build or run context, it was always necessary to propose an improvement that could be integrated perfectly into the brand's ecosystem.</p>
+        <h2 class="sub-heading-03 mb-3"><%= t "pages.accor.backlog-title" %></h2>
+        <p class="ui-regular-01"><%= t "pages.accor.backlog-description" %></p>
       </div>
     </div>
   </div>
@@ -52,10 +52,10 @@
 
 <div class="focus">
   <div class="container">
-    <h2 class="sub-heading-03 text-center my-4">Build & Run</h2>
+    <h2 class="sub-heading-03 text-center my-4"><%= t "pages.accor.focus-title" %></h2>
     <div class="row justify-content-center">
       <div class="col-md-4 col-sm-12">
-        <p class="ui-regular-01 mt-3" style="color: white; text-align: center;">Depending on the type of subject, it was necessary to think about the simplest and most coherent way of responding to the problem, whether it be customer or business. This went through discovery  we went through discovery phases together, where the different possible solutions as a team.</p>
+        <p class="ui-regular-01 mt-3" style="color: white; text-align: center;"><%= t "pages.accor.focus-description" %></p>
       </div>
     </div>
   </div>
@@ -67,12 +67,12 @@
   <div class="work-block">
     <div class="row justify-content-center">
       <div class="col-md-4 col-sm-12">
-        <h2 class="sub-heading-03 mb-3">Data driven approach</h2>
-        <p class="ui-regular-01">As a designer we are used to working with data analysts to improve the quality of your design. Insight permitted us to know better what the user wanted.</p>
+        <h2 class="sub-heading-03 mb-3"><%= t "pages.accor.data-title" %></h2>
+        <p class="ui-regular-01"><%= t "pages.accor.data-description" %></p>
       </div>
       <div class="col-md-4 col-sm-12">
         <img src="https://res.cloudinary.com/peachux/image/upload/v1669124777/website/Accor_data.jpg" alt="Kraze DS" class="works-img">
-        <p class="ui-regular-03 caption pt-2">Talk data to me!</p>
+        <p class="ui-regular-03 caption pt-2"><%= t "pages.accor.data-img-caption" %></p>
       </div>
     </div>
   </div>
@@ -83,8 +83,8 @@
 <div class="next-work">
   <div class="container">
     <div class="d-md-flex justify-content-between mb-4">
-      <h2 class="sub-heading-02 mb-3">Next work</h2>
-      <%= link_to "See all the works", works_path , class: "button-primary button-advantage button-next" %>
+      <h2 class="sub-heading-02 mb-3"><%= t "pages.works.next-work" %></h2>
+      <%= link_to t("pages.works.see-all-works"), works_path , class: "button-primary button-advantage button-next" %>
     </div>
 
     <a href="<%= kraze_path %>" style="text-decoration: none">
