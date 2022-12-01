@@ -1,0 +1,101 @@
+<!-- WORK HEADER -->
+
+<div class="container">
+
+  <%= render "shared/back-button" %>
+
+  <div class="work-header d-flex">
+    <div class="row align-self-stretch">
+      <div class="col-md-7 col-sm-12 offset-md-0">
+        <img src="https://res.cloudinary.com/peachux/image/upload/v1669124778/website/Accor_cover.jpg" alt="Accor cover" class="work-header-image">
+      </div>
+      <div class="col-md-5 col-sm-12 work-header-content d-flex align-content-end flex-wrap offset-md-0 ps-4" >
+        <h1 class="heading-02">Accor</h1>
+        <p class="ui-regular-01"><%= t "pages.accor.description" %></p>
+      </div>
+    </div>
+  </div>
+
+  <!-- Tasks -->
+
+  <div class="work-block">
+    <div class="row justify-content-center">
+      <div class="col-md-4 col-sm-12">
+        <h2 class="sub-heading-03 mb-3"><%= t "pages.accor.task-title" %></h2>
+        <p class="ui-regular-01"><%= t "pages.accor.task-description1" %></p>
+        <p class="ui-regular-01"><%= t "pages.accor.task-description2" %></p>
+        <p class="ui-regular-01"><%= t "pages.accor.task-description3" %></p>
+        <p class="ui-regular-01"><%= t "pages.accor.task-description4" %></p>
+        <p class="ui-regular-01"><%= t "pages.accor.task-description5" %></p>
+      </div>
+      <div class="col-md-4 col-sm-12">
+        <img src="https://res.cloudinary.com/peachux/image/upload/v1669124778/website/Accor_goals.jpg" alt="Accor goals" class="works-img">
+        <p class="ui-regular-03 caption pt-2"><%= t "pages.accor.task-img-caption" %></p>
+      </div>
+    </div>
+  </div>
+
+  <!-- INFORMATION ARCHITECTURE -->
+
+  <div class="work-block">
+    <div class="row justify-content-center">
+      <div class="col-md-4 col-sm-12">
+        <img src="https://res.cloudinary.com/peachux/image/upload/v1669124780/website/Accor_backlog.jpg" alt="Accor backlog" class="works-img">
+        <p class="ui-regular-03 caption pt-2"><%= t "pages.accor.backlog-img-caption" %></p>
+      </div>
+      <div class="col-md-4 col-sm-12">
+        <h2 class="sub-heading-03 mb-3"><%= t "pages.accor.backlog-title" %></h2>
+        <p class="ui-regular-01"><%= t "pages.accor.backlog-description" %></p>
+      </div>
+    </div>
+  </div>
+</div>
+
+<!-- FOCUS -->
+
+<div class="focus">
+  <div class="container">
+    <h2 class="sub-heading-03 text-center my-4"><%= t "pages.accor.focus-title" %></h2>
+    <div class="row justify-content-center">
+      <div class="col-md-4 col-sm-12">
+        <p class="ui-regular-01 mt-3" style="color: white; text-align: center;"><%= t "pages.accor.focus-description" %></p>
+      </div>
+    </div>
+  </div>
+</div>
+
+<!-- Design system and library -->
+
+<div class="container">
+  <div class="work-block">
+    <div class="row justify-content-center">
+      <div class="col-md-4 col-sm-12">
+        <h2 class="sub-heading-03 mb-3"><%= t "pages.accor.data-title" %></h2>
+        <p class="ui-regular-01"><%= t "pages.accor.data-description" %></p>
+      </div>
+      <div class="col-md-4 col-sm-12">
+        <img src="https://res.cloudinary.com/peachux/image/upload/v1669124777/website/Accor_data.jpg" alt="Kraze DS" class="works-img">
+        <p class="ui-regular-03 caption pt-2"><%= t "pages.accor.data-img-caption" %></p>
+      </div>
+    </div>
+  </div>
+</div>
+
+<!-- Next project -->
+
+<div class="next-work">
+  <div class="container">
+    <div class="d-md-flex justify-content-between mb-4">
+      <h2 class="sub-heading-02 mb-3"><%= t "pages.works.next-work" %></h2>
+      <%= link_to t("pages.works.see-all-works"), works_path , class: "button-primary button-advantage button-next" %>
+    </div>
+
+    <a href="<%= kraze_path %>" style="text-decoration: none">
+      <div class="next-work-section" style="background-image: linear-gradient(rgba(0,0,0,0.6), rgba(0,0,0,0.6)), url(https://res.cloudinary.com/peachux/image/upload/v1669718503/website/Kraze_next.png);">
+        Kraze
+      </div>
+    </a>
+  </div>
+</div>
+
+<%= render "shared/advantages-block" %>

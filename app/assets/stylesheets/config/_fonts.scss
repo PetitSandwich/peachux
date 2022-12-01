@@ -1,6 +1,7 @@
 // Import Google fonts
 @import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;600;700&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Abril+Fatface&display=swap');
+@import "config/colors";
 
 // Default fonts
 $body-font: "Poppins", "sans-serif";
@@ -141,4 +142,10 @@ $headers-font: "Abril Fatface", "cursive";
   line-height: 18px;
   letter-spacing: 0.4px;
   text-decoration: underline;
+}
+
+// Special styles
+
+.caption {
+  color: $body-muted;
 }

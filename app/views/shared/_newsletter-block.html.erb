@@ -3,15 +3,15 @@
     <div class="row justify-content-center">
       <i class="fa-regular fa-stars white-icon align-items-center justify-content-center text-center mb-4"></i>
       <div class="col-md-4 col-sm-12">
-        <h2 class="heading-03 text-center">Don't miss out on any opportunity</h2>
-        <p class="ui-regular-01 text-center">Stay tuned, you could have some real nice offers!</p>
+        <h2 class="heading-03 text-center newsletter-text"><%= t "partials.newsletter.title" %></h2>
+        <p class="ui-regular-01 text-center"><%= t "partials.newsletter.description" %></p>
         <%= form_for(Prospect.new, :html => {:class => 'form-group'}) do |f| %>
           <div class="field">
-            <%= f.label :email %><br />
-            <%= f.email_field :email, autocomplete: "Enter your email", :class=> 'form-full text-field', placeholder: 'Example: name@company.com' %>
+            <%= f.label :email %><%= t "partials.newsletter.email-example" %> <br />
+            <%= f.email_field :email, autocomplete: "Enter your email", :class=> 'form-full text-field', placeholder: t("partials.newsletter.email-placeholder") %>
           </div>
           <div class="field mt-3">
-            <%= f.submit "Let's get it started!", :class=> 'form-full button-accent'%>
+            <%= f.submit t("partials.newsletter.button"), :class=> 'form-full button-accent'%>
           </div>
         <% end %>
       </div>

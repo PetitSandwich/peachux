@@ -1,33 +1,177 @@
-# Files in the config/locales directory are used for internationalization
-# and are automatically loaded by Rails. If you want to use locales other
-# than English, add the necessary files in this directory.
-#
-# To use the locales, use `I18n.t`:
-#
-#     I18n.t "hello"
-#
-# In views, this is aliased to just `t`:
-#
-#     <%= t("hello") %>
-#
-# To use a different locale, set it with `I18n.locale`:
-#
-#     I18n.locale = :es
-#
-# This would use the information in config/locales/es.yml.
-#
-# The following keys must be escaped otherwise they will not be retrieved by
-# the default I18n backend:
-#
-# true, false, on, off, yes, no
-#
-# Instead, surround them with single quotes.
-#
-# en:
-#   "true": "foo"
-#
-# To learn more, please read the Rails Internationalization guide
-# available at https://guides.rubyonrails.org/i18n.html.
-
 en:
-  hello: "Hello world"
+
+  nav:
+    works: "Works"
+    about: "About us"
+    appointment: "Make an appointment"
+    language: "Language"
+    back-button: " Back to works"
+
+  pages:
+
+    home:
+      services: "Freelance Product Designers at your service."
+      adopt: "Adopt a designer!"
+
+    about:
+      title: "About Peach'UX"
+      description: "Design is a language, and we want to talk with you."
+
+      offer-title: "Product Design Consulting"
+      offer1: "• Studying your users and their needs"
+      offer2: "• Defining the challenges"
+      offer3: "• Finding creative ways to solve their problems"
+      offer4: "• Prototype and mockup the whole solution"
+      offer5: "• Testing, testing, and... testing"
+
+      services-title: "Our Skills"
+      services1: "• UX/UI design"
+      services2: "• Design thinking"
+      services3: "• Design system"
+      services4: "• Copyrighting"
+      services5: "• Prototyping"
+      services6: "• User research"
+      services7: "• HTML/CSS/JS/ Ruby on rails"
+      services8: "• CMS (Wordpress)"
+
+      profiles: "Profiles"
+      profile1-description: "Sassy Product Designer"
+      profile2-description: "Real CEO"
+      price-per-day: "Price per day"
+      kibbles: "kibbles"
+      per-day: "/day"
+      see-the-resume: "See the resume"
+
+    works:
+      title: "Works"
+      next-work: "Next work"
+      see-all-works: "Voir tous les clients"
+
+    accor:
+      description: "As part of the missions proposed by the group, we worked on various optimizations of the booking process as well as on the luxury offer."
+
+      task-title: "Tasks"
+      task-description1: "• Propose improvements related to the display of hotels on the results page during the covid period to improve the user's search and maintain a consistent income."
+      task-description2: "• Take children into account when displaying the total price and include them in the context of finding a room and an overnight stay."
+      task-description3: "• Take over the design system of luxury hotel sites in order to create a graphic consistency."
+      task-description4: "• Display prices adapted to the user context."
+      task-description5: "• Build & Run"
+      task-img-caption: "Consistency all along the booking funnel"
+
+      backlog-title: "Feed your backlog"
+      backlog-description: "The need could come either from user feedback from monitoring tools or from PO teams. Whether in a build or run context, it was always necessary to propose an improvement that could be integrated perfectly into the brand's ecosystem."
+      backlog-img-caption: "Working with your squad is priceless"
+
+      focus-title: "Build & Run"
+      focus-description: "Depending on the type of subject, it was necessary to think about the simplest and most coherent way of responding to the problem, whether it be customer or business. This went through discovery we went through discovery phases together, where the different possible solutions as a team."
+
+      data-title: "Data driven approach"
+      data-description: "As a designer we are used to working with data analysts to improve the quality of your design. Insight permitted us to know better what the user wanted."
+      data-img-caption: "Talk data to me!"
+
+    kraze:
+      description: "Kraze is an app that connects techno partygoers and techno event promoters in a order to have techno nights."
+
+      goals-title: "Goals"
+      goals-description_html: "In order to integrate a startup accelerator, Kraze called our services in work on a V2 of their application.<br> Having refocused their business model on the referencing of parties and the social aspect of the app, the two creators wanted to have an overhaul of their old design as well as a functional prototype highlighting the user’s journey."
+      goals-img-caption: "Creating a bond between advertisers and partygoers."
+
+      architecture-title: "Information architecture"
+      architecture-description: "To better understand the product and its specificities, we organized a divergence workshop on the tree structure of the app. We have rebuilt the information architecture so that it can better suit the target users."
+      architecture-img-caption1: "Building the tree structure"
+      architecture-img-caption2: "Tree structure showing functionalities and content present on the app"
+
+      focus-title: "Screens"
+      focus-home: "Home page"
+      focus-post: "Post view"
+      focus-event: "Event view"
+
+      ds-title: "Designing the System"
+      ds-description: "Once this prioritization was done, we setted up the bases of a design system on sketch allowing to have a dynamic library of components. This allowed us to establish the main principles of navigation, to work on the granularity of content and on navigation."
+      ds-img-caption: "Creating the library"
+
+      proto-title: "Prototyping the living thing"
+      proto-description: "Once the courses were validated, we integrated the content and modeled the application so that the components could be used to build the prototype."
+      proto-img-caption: "The prototype were meant to be presented to Y Combinator"
+
+    lcl:
+      description: "LCL is the French bank for urban areas. In 2022, the switchover of its site was made. It was therefore necessary to bring the course and its features up to date."
+
+      task-title: "Tasks"
+      task-description1: "• Improvement of the real estate credit userflows"
+      task-description2: "• Goverall navigation and menu: Rework the hierarchy of information to provide a consistent and coherent user experience"
+      task-description3: "• Adding functionalities to the transfer userflows"
+      task-description4: "• Build & Run"
+      task-img-caption: "LCL is the main bank of Parisians"
+
+      credit-title: "How to make your real estate credit sexier?"
+      credit-description1: "To better understand the product and its specificities, we organized a divergence workshop on the tree structure of the app."
+      credit-description2: "We have rebuilt the information architecture so that it can better suit the target users."
+      credit-img-caption: "Through interviews we were able to to increase significatively my knowledge about real estate."
+
+      navigation-title: "Resumption of the tree structure, let's build a nav!"
+      navigation-description1: "In the context of the redesign of the banking space to its new version, it was necessary to question the mental models of the user about his perception of the site's tree structure."
+      navigation-description2: "Following this need, we organized workshops with the client in order to better understand the information architecture issues. These results allowed us to validate page structures and navigation principles."
+      navigation-img-caption: "Workshop with the client, and the postits"
+
+      transfer-title: "Additions to the transfer path"
+      transfer-description1: "During the rework of the old version (version before the switchover), many paths needed to be reviewed and modified to correspond to the current vision."
+      transfer-description2: "These revisions of paths have allowed us to ask ourselves fundamental questions about the use of the various services related to transfers."
+      transfer-description3: "In this process, several processes were adapted, such as adding a beneficiary, modifying transfer limits or countries, and consulting scheduled transfers."
+      transfer-img-caption: "Improving the main feature of a bankary app"
+
+    cryptopassion:
+      description: "Since 2017 the adoption of Bitcoin and the understanding of its technology, the blockchain, have continued to attract more and more adopters."
+
+      goals-title: "Goals"
+      goals-description: "CryptoPassion sells young and savy content and investment training. The target is quite young and completely aware of the uses related to the management of digital assets. We were asked to analyze and study this target in order to design a brand storytelling base for CryptoPassion."
+      goals-img-caption: "CryptoPassion is where you can find good advice for your investments."
+
+      quantitative-title: "Quantitative research"
+      quantitative-description: "To determine the investment behaviors, the investment levels or the psychology of an investor vis-à-vis the market, it was necessary to study this target in depth and to go through a quantitative study modeled in the form of 'a questionnaire. The results allowed us to provide clarity on the degree of knowledge of the target and we determined a typical profile when summarizing the results."
+      quantitative-img-caption: "A google form was launched in the communities on Telegam in order to collect insights."
+
+      qualitative-title: "Qualitative research"
+      qualitative-description: "Once the summary of the results of the quantitative questionnaire was obtained, we then conducted interviews with different types of investors in order to establish a substantiated mapping of the cryptosphere and its players. This mapping allowed us to direct our choices of graphic design for the identity and the branding of the service."
+      qualitative-img-caption: "We conducted various interviews with targets of the questionnaire to get ideas of the message that should be transmitted."
+
+      storytelling-title: "Writing the good story for the good people"
+      storytelling-description: "On the strength of the insights, we were able to tackle the design of the logo and the resulting graphic charter. It's easy when you know where to go."
+      storytelling-img-caption1: "Logo + Text"
+      storytelling-img-caption2: "Building the storytelling"
+
+  partials:
+
+    testimonials:
+      title: "They trusted Peach'ux"
+      raphaelle: "Antoine has been part of the Frog UX team for almost a year. His positive attitude and bubbly spirit have made him an asset to the team. He integrates easily and is attentive to customer requests, which he does not hesitate to challenge when necessary. He is a force of proposal as much within the projects as in terms of process and work methodology. Communication with him is fluid, which is particularly appreciated. It is a pleasure to work with Antoine."
+      francois: "Working with Antoine was a real pleasure because of his personality and the quality of his work, force of proposal, lively during his presentations, quality deliverables, relevant and a great maturity in his job of ux designer, a person I strongly recommend."
+      jc: "Antoine is always relevant in his proposals, meticulous in his UI work and the use of the design system. He masters among other things Figma. Very good relational, in team on site as in remote."
+      rodolphe: "Full of dynamism in Antoine. He is interested in many fields, proposes very relevant solutions that he knows how to argue perfectly, very motivated, with a great team spirit. Thank you Antoine."
+      noe: "Antoine is a young talented Ux Designer. His liveliness of mind and his teaching skills allow him to solve complex problems while bringing the necessary serenity to the projects he is entrusted with."
+      previous: "Previous"
+      next: "Next"
+
+    advantages:
+      title: "Get your own Product Designer"
+      advantage1-title: "Bulding your service"
+      advantage1-description: "Website, app, flyer for your chess club ?It’s our goal to ideate and find some nice responses for your business (and its revenue!)"
+      advantage2-title: "Research and eXperience as goals"
+      advantage2-description: "Your user is your future consumer, it is mandatory to know how he's drinking his coffee to propose the best userflows."
+      advantage3-title: "Design System, graphic grammary"
+      advantage3-description: "Ok... Sex is cool, but less cool as a documented and organized design system as we do."
+      button: "How dare we?"
+
+    newsletter:
+      title: "Don't miss out on any opportunity"
+      description: "Stay tuned, you could have some real nice offers!"
+      email-example: " example: name@company.com"
+      email-placeholder: "name@company.com"
+      button: "Let's get it started!"
+
+    footer:
+      services: "Services"
+      home: "Home"
+      works: "Work"
+      about: "About"
+      follow: "Follow us"

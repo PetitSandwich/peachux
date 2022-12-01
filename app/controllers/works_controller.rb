@@ -1,46 +1,62 @@
 class WorksController < ApplicationController
-  before_action :authenticate_user!, except: [:index, :show]
 
-  def index
-    @works = Work.all
+  # before_action :authenticate_user!, except: [:index, :show]
+
+  #def index
+  #  @works = Work.all
+  #end
+#
+  #def show
+  #  @work = Work.find(params[:id])
+  #end
+
+  #def new
+  #  @work = Work.new
+  #end
+#
+  #def create
+  #  @work = Work.new(work_params)
+  #  @work.save
+  #  redirect_to work_path(@work)
+  #end
+
+  #def edit
+  #  @work = Work.find(params[:id])
+  #end
+
+  #def update
+  #  @work = Work.find(params[:id])
+  #  @work.update(work_params)
+  #  redirect_to work_path(@work)
+  #end
+
+  #def destroy
+  #  @work = Work.find(params[:id])
+  #  @work.destroy
+  #  redirect_to works_path, status: :see_other
+  #end
+
+  def tasks
   end
 
-  def show
-    @work = Work.find(params[:id])
+  def accor
   end
 
-  def new
-    @work = Work.new
+  def kraze
   end
 
-  def create
-    @work = Work.new(work_params)
-    @work.save
-    redirect_to work_path(@work)
+  def lcl
   end
 
-  def edit
-    @work = Work.find(params[:id])
+  def cryptopassion
   end
 
-  def update
-    @work = Work.find(params[:id])
-    @work.update(work_params)
-    redirect_to work_path(@work)
-  end
-
-  def destroy
-    @work = Work.find(params[:id])
-    @work.destroy
-    redirect_to works_path, status: :see_other
-  end
+  # Static pages
 
   private
 
   def work_params
-    params.require(:work).permit(:name, :description, :photo, :task_title,
-      :tasks, :content1_title, :content1, :focus_title, :focus, :content2_title,
-    :content2)
+    params.require(:work).permit(:name, :description, :photo, :tasks)
   end
 
 end

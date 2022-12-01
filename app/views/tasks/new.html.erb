@@ -1,0 +1,10 @@
+<div class="work-new-section">
+  <%= simple_form_for(model: [@work, task]) do |f| %>
+    <%= f.input :name %>
+    <%= f.input :description %>
+    <%= f.input :photo, as: :file %>
+
+     <%= f.submit 'Create a new task', :class => 'button-accent mb-4' %>
+  <% end %>
+
+</div>

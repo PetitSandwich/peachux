@@ -3,13 +3,14 @@
   background-position: center;
   overflow-x: hidden;
   background-image: url(https://res.cloudinary.com/peachux/image/upload/v1666455029/website/home_background.png);
+  height: 40rem;
 }
 .about-banner {
-  height: 500px;
   overflow-x: hidden;
-  background-image: linear-gradient(rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.6)), url(https://res.cloudinary.com/peachux/image/upload/v1668430436/website/About_cover.jpg);
+  background-color: $brand-secondary;
   background-size: cover;
   background-position: center;
+  text-align: center;
 }
 
 .banner .heading-01 {
@@ -25,7 +26,10 @@
 .title {
   background: rgb(14, 0, 77);
   background: linear-gradient(90deg, rgba(14, 0, 77, 1) 0%, rgba(255, 255, 255, 0) 100%);
-  padding: 6rem;
+  height: inherit;
+}
+.claim {
+  margin-left: 8rem;
 }
 
 // Responsive
@@ -33,16 +37,16 @@
 @media only screen and (max-width: 600px) {
   .about-banner {
       overflow-x: hidden;
-      height: 300px;
     }
   .banner {
       background-size: cover;
       background-position: right;
       overflow-x: hidden;
       background-image: url(https://res.cloudinary.com/peachux/image/upload/v1666455029/website/home_background.png);
+
     }
   .banner .heading-01 {
-      font-size: 3rem;
+      font-size: 2.5rem;
       line-height: 54px;
       margin: 0;
       color: $heading-inverse;
@@ -59,6 +63,10 @@
     .title {
       background: rgb(14, 0, 77);
       background: linear-gradient(0deg, rgba(14, 0, 77, 0.7) 0%, rgba(255, 255, 255, 0) 100%);
-      padding: 256px 24px 32px 24px;
+      padding: 2rem;
+      flex: none;
+    }
+    .claim {
+      margin: 0rem;
     }
 }

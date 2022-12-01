@@ -1,0 +1,106 @@
+<!-- WORK HEADER -->
+
+<div class="container">
+
+  <%= render "shared/back-button" %>
+
+  <div class="work-header d-flex">
+    <div class="row align-self-stretch">
+      <div class="col-md-7 col-sm-12 offset-md-0">
+        <img src="https://res.cloudinary.com/peachux/image/upload/v1669124803/website/Lcl_cover.jpg" alt="LCL cover" class="work-header-image">
+      </div>
+      <div class="col-md-5 col-sm-12 work-header-content d-flex align-content-end flex-wrap offset-md-0 ps-4" >
+        <h1 class="heading-02">LCL</h1>
+        <p class="ui-regular-01"><%= t "pages.lcl.description" %></p>
+      </div>
+    </div>
+  </div>
+
+<!-- Tasks -->
+
+  <div class="work-block">
+    <div class="row justify-content-center">
+      <div class="col-md-4 col-sm-12">
+        <h2 class="sub-heading-03 mb-3"><%= t "pages.lcl.task-title" %></h2>
+        <p class="ui-regular-01"><%= t "pages.lcl.task-description1" %></p>
+        <p class="ui-regular-01"><%= t "pages.lcl.task-description2" %></p>
+        <p class="ui-regular-01"><%= t "pages.lcl.task-description3" %></p>
+        <p class="ui-regular-01"><%= t "pages.lcl.task-description4" %></p>
+      </div>
+      <div class="col-md-4 col-sm-12">
+        <img src="https://res.cloudinary.com/peachux/image/upload/v1669124803/website/Lcl_goals.jpg" alt="LCL goals" class="works-img">
+        <p class="ui-regular-03 caption pt-2"><%= t "pages.lcl.task-img-caption" %></p>
+      </div>
+    </div>
+  </div>
+
+<!-- Credit -->
+
+  <div class="work-block">
+    <div class="row justify-content-center">
+      <div class="col-md-4 col-sm-12">
+        <img src="https://res.cloudinary.com/peachux/image/upload/v1669124804/website/Lcl_interview.jpg" alt="LCL credit" class="works-img">
+        <p class="ui-regular-03 caption pt-2"><%= t "pages.lcl.credit-img-caption" %></p>
+      </div>
+      <div class="col-md-4 col-sm-12">
+        <h2 class="sub-heading-03 mb-3"><%= t "pages.lcl.credit-title" %></h2>
+        <p class="ui-regular-01"><%= t "pages.lcl.credit-description1" %></p>
+        <p class="ui-regular-01"><%= t "pages.lcl.credit-description2" %></p>
+      </div>
+    </div>
+  </div>
+</div>
+
+<!-- Information Architecture -->
+
+<div class="container">
+  <div class="work-block">
+    <div class="row justify-content-center">
+      <div class="col-md-4 col-sm-12">
+        <h2 class="sub-heading-03 mb-3"><%= t "pages.lcl.navigation-title" %></h2>
+        <p class="ui-regular-01"><%= t "pages.lcl.navigation-description1" %></p>
+        <p class="ui-regular-01"><%= t "pages.lcl.navigation-description2" %></p>
+      </div>
+      <div class="col-md-4 col-sm-12">
+        <img src="https://res.cloudinary.com/peachux/image/upload/v1669124804/website/Lcl_research.jpg" alt="LCL research" class="works-img">
+        <p class="ui-regular-03 caption pt-2"><%= t "pages.lcl.navigation-img-caption" %></p>
+      </div>
+    </div>
+  </div>
+
+<!-- Transfer -->
+
+  <div class="work-block">
+    <div class="row justify-content-center">
+      <div class="col-md-4 col-sm-12">
+        <img src="https://res.cloudinary.com/peachux/image/upload/v1669727091/website/Lcl_transfer.png" alt="LCL transfer rework" class="works-img">
+        <p class="ui-regular-03 caption pt-2"><%= t "pages.lcl.transfer-img-caption" %></p>
+      </div>
+      <div class="col-md-4 col-sm-12">
+        <h2 class="sub-heading-03 mb-3"><%= t "pages.lcl.transfer-title" %></h2>
+        <p class="ui-regular-01"><%= t "pages.lcl.transfer-description1" %></p>
+        <p class="ui-regular-01"><%= t "pages.lcl.transfer-description2" %></p>
+        <p class="ui-regular-01"><%= t "pages.lcl.transfer-description3" %></p>
+      </div>
+    </div>
+  </div>
+</div>
+
+<!-- Next project -->
+
+<div class="next-work">
+  <div class="container">
+    <div class="d-md-flex justify-content-between mb-4">
+      <h2 class="sub-heading-02 mb-3"><%= t "pages.works.next-work" %></h2>
+      <%= link_to t("pages.works.see-all-works"), works_path , class: "button-primary button-advantage button-next" %>
+    </div>
+
+    <a href="<%= cryptopassion_path %>" style="text-decoration: none">
+      <div class="next-work-section" style="background-image: linear-gradient(rgba(0,0,0,0.6), rgba(0,0,0,0.6)), url(https://res.cloudinary.com/peachux/image/upload/v1669718617/website/CP_next.png);">
+        CryptoPassion
+      </div>
+    </a>
+  </div>
+</div>
+
+<%= render "shared/advantages-block" %>
