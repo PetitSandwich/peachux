@@ -1,5 +1,3 @@
-<div class="container">
-  <%= link_to works_path, class: "button-back" do%>
-    <p class="ui-regular-01" style="margin-bottom: 0px"><i class="fa-sharp fa-solid fa-arrow-left"></i>  Back to works</p>
-  <% end %>
-</div>
+<a href="<%= works_path %>" style="text-decoration: none" class="button-back">
+  <p class="ui-regular-01" style="margin-bottom: 0px"><i class="fa-sharp fa-solid fa-arrow-left"></i><%= t "nav.back-button" %></p>
+</a>
