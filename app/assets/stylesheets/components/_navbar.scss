@@ -18,6 +18,10 @@
 }
 .nav-link {
   font-family: $body-font;
+  color: $body !important;
+  &:hover{
+    color: $body-muted !important;
+  }
 }
 
 @media only screen and (max-width: 600px) {
@@ -33,5 +37,6 @@
     position: absolute;
     bottom: 64px;
     text-align: center;
+    width: 100%;
   }
 }

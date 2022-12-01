@@ -25,17 +25,21 @@
           </li>
         <% else %>
           <li class="nav-item">
-            <%= link_to 'English', url_for( :locale => 'en' ), class: "nav-link"%>
+            <%= link_to "Works", works_path , class: "nav-link" %>
           </li>
-          <li class="nav-item">
-            <%= link_to 'Français', url_for( :locale => 'fr' ), class: "nav-link"%>
-          </li>
-          <li class="nav-item">
-            <%= link_to t("nav.works"), works_path , class: "nav-link" %>
-          </li>
-
           <li class="nav-item">
             <%= link_to t("nav.about"), about_path , class: "nav-link" %>
+          </li>
+          <li class="nav-item align-self-center">
+            <div class="dropdown">
+              <button class="button-language dropdown-toggle" type="button" id="dropdownMenuButton" data-bs-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                <%= t "nav.language" %>
+              </button>
+              <div class="dropdown-menu" aria-labelledby="dropdownMenuButton">
+                <%= link_to '🇬🇧 English', url_for( :locale => 'en' ), class: "nav-link nav-item "%>
+                <%= link_to '🇫🇷 Français', url_for( :locale => 'fr' ), class: "nav-link nav-item "%>
+              </div>
+            </div>
           </li>
           <li class="nav-item align-self-center button-calendly-nav">
             <a href="" class="button-accent" onclick= "Calendly.initPopupWidget({url:'https://calendly.com/ant-pecheux/15min'}) ;return false;"><%= t "nav.appointment" %></a>

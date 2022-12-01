@@ -1,15 +1,16 @@
 en:
 
   nav:
-    works: "Clients"
+    works: "Works"
     about: "About us"
     appointment: "Make an appointment"
-    adopt: "Adopt a designer!"
+    language: "Language"
 
   pages:
 
     home:
       services: "Freelance Product Designers at your service."
+      adopt: "Adopt a designer!"
 
     about:
       title: "About Peach'UX"
