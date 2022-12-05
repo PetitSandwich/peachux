@@ -47,6 +47,9 @@ fr:
       per-day: "/jour"
       see-the-resume: "Voir le CV"
 
+      antoine-profile-link_html: "https://drive.google.com/file/d/1mvqqWU3UhHuOBMOPcJrQ7ppEAHNSL80P/view?usp=share_link"
+      maki-profile-link_html: "https://drive.google.com/file/d/1hOPG_MpOJANw1u0JjLeTHPj1ppTEj-kh/view?usp=share_link"
+
     accor:
       description: "Dans le cadre des missions proposées par le groupe nous avons travaillé sur différentes optimisations du parcours de réservation ainsi que sur l’offre luxe."
 

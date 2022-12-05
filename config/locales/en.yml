@@ -18,11 +18,11 @@ en:
       description: "Design is a language, and we want to talk with you."
 
       offer-title: "Product Design Consulting"
-      offer1: "• Studying your users and their needs"
-      offer2: "• Defining the challenges"
-      offer3: "• Finding creative ways to solve their problems"
-      offer4: "• Prototype and mockup the whole solution"
-      offer5: "• Testing, testing, and... testing"
+      offer1: "Studying your users and their needs"
+      offer2: "Defining the challenges"
+      offer3: "Finding creative ways to solve their problems"
+      offer4: "Prototype and mockup the whole solution"
+      offer5: "Testing, testing, and... testing"
 
       services-title: "Our Skills"
       services1: "UX/UI design"
@@ -42,6 +42,9 @@ en:
       per-day: "/day"
       see-the-resume: "See the resume"
 
+      antoine-profile-link_html: "https://drive.google.com/file/d/1mvqqWU3UhHuOBMOPcJrQ7ppEAHNSL80P/view?usp=share_link"
+      maki-profile-link_html: "https://drive.google.com/file/d/1mvqqWU3UhHuOBMOPcJrQ7ppEAHNSL80P/view?usp=share_link"
+
     works:
       title: "Works"
       next-work: "Next work"
@@ -51,11 +54,11 @@ en:
       description: "As part of the missions proposed by the group, we worked on various optimizations of the booking process as well as on the luxury offer."
 
       task-title: "Tasks"
-      task-description1: "Propose improvements related to the display of hotels on the results page during the covid period to improve the user's search and maintain a consistent income."
-      task-description2: "Take children into account when displaying the total price and include them in the context of finding a room and an overnight stay."
-      task-description3: "Take over the design system of luxury hotel sites in order to create a graphic consistency."
-      task-description4: "Display prices adapted to the user context."
-      task-description5: "Build & Run"
+      task-description1: "• Propose improvements related to the display of hotels on the results page during the covid period to improve the user's search and maintain a consistent income."
+      task-description2: "• Take children into account when displaying the total price and include them in the context of finding a room and an overnight stay."
+      task-description3: "• Take over the design system of luxury hotel sites in order to create a graphic consistency."
+      task-description4: "• Display prices adapted to the user context."
+      task-description5: "• Build & Run"
       task-img-caption: "Consistency all along the booking funnel"
 
       backlog-title: "Feed your backlog"
