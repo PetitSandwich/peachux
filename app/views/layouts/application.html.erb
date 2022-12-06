@@ -8,8 +8,13 @@
         window.dataLayer = window.dataLayer || [];
         function gtag(){dataLayer.push(arguments);}
         gtag('js', new Date());
-
-        gtag('config', 'G-BPMWTWD6FG');
+        document.addEventListener("turbolinks:load", function(event) {}
+        gtag('config', 'G-BPMWTWD6FG', {
+          page_location: event.data.url,
+          page_path: event.srcElement.location.pathname,
+          page_title: event.srcElement.title
+          });
+        })
       </script>
     <!-- End Google Tag Manager -->
 
