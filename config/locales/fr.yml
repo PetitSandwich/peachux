@@ -5,7 +5,7 @@ fr:
     about: "A propos"
     appointment: "Prendre un rendez-vous"
     language: "Langue"
-    back-button: " Tous les clients"
+    back-button: "Retour à l'accueil"
 
   pages:
 
@@ -156,7 +156,7 @@ fr:
 
     advantages:
       title: "Offre-toi un Product Designer"
-      advantage1-title: "Product, UX, de l'idée à sa réalisation"
+      advantage1-title: "Product, UX, de l'idée à sa réalisationq"
       advantage1-description: "De la définition du problème jusqu'au prototype, c'est notre objectif d'itérer sur des réponses aux problématiques de ton business."
       advantage2-title: "Objectif Recherche, destination Expérience Utilisateur"
       advantage2-description: "Ton utilisateur est ton futur consommateur, il est primordial de savoir comment il boit son caféafin de lui proposer les meilleurs parcours."

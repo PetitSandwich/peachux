@@ -6,13 +6,31 @@
 // Font face Benzin
 
 @font-face {
-  font-family:"Benzin";
-  src: url(app/assets/fonts/benzinsemibold.woff2);
+  font-family: "Benzin";
+  src: url("app/assets/fonts/benzinbold.ttf");
+  src: url("app/assets/fonts/benzinbold.woff");
+  src: url("app/assets/fonts/benzinbold.woff2");
+
+  src: url("app/assets/fonts/benzinextrabold.ttf");
+  src: url("app/assets/fonts/benzinextrabold.woff");
+  src: url("app/assets/fonts/benzinextrabold.woff2");
+
+  src: url("app/assets/fonts/benzinmedium.ttf");
+  src: url("app/assets/fonts/benzinmedium.woff");
+  src: url("app/assets/fonts/benzinmedium.woff2");
+
+  src: url("app/assets/fonts/benzinregular.ttf");
+  src: url("app/assets/fonts/benzinregular.woff");
+  src: url("app/assets/fonts/benzinregular.woff2");
+
+  src: url("app/assets/fonts/benzinsemibold.ttf");
+  src: url("app/assets/fonts/benzinsemibold.woff");
+  src: url("app/assets/fonts/benzinsemibold.woff2");
 }
 
 // Default fonts
 $body-font: "Poppins", "sans-serif";
-$headers-font: "Benzin";
+$headers-font: "Benzin", "sans-serif";
 
 
 // Style guide
