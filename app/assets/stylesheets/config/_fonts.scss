@@ -7,30 +7,30 @@
 
 @font-face {
   font-family: "Benzin";
-  src: url("app/assets/fonts/benzinbold.ttf") format('ttf');
-  src: url("app/assets/fonts/benzinbold.eot") format('eot');
-  src: url("app/assets/fonts/benzinbold.woff") format('woff');
-  src: url("app/assets/fonts/benzinbold.woff2") format('woff2');
+  src: url("https://res.cloudinary.com/peachux/raw/upload/v1674043431/website/fonts/benzinbold.ttf") format('ttf');
+  src: url("https://res.cloudinary.com/peachux/raw/upload/v1674043431/website/fonts/benzinbold.eot") format('eot');
+  src: url("https://res.cloudinary.com/peachux/raw/upload/v1674043430/website/fonts/benzinbold.woff") format('woff');
+  src: url("https://res.cloudinary.com/peachux/raw/upload/v1674043430/website/fonts/benzinbold.woff2") format('woff2');
 
-  src: url("app/assets/fonts/benzinextrabold.ttf") format('ttf');
-  src: url("app/assets/fonts/benzinextrabold.eot") format('eot');
-  src: url("app/assets/fonts/benzinextrabold.woff") format('woff');
-  src: url("app/assets/fonts/benzinextrabold.woff2") format('woff2');
+  src: url("https://res.cloudinary.com/peachux/raw/upload/v1674043431/website/fonts/benzinextrabold.ttf") format('ttf');
+  src: url("https://res.cloudinary.com/peachux/raw/upload/v1674043431/website/fonts/benzinextrabold.eot") format('eot');
+  src: url("https://res.cloudinary.com/peachux/raw/upload/v1674043430/website/fonts/benzinextrabold.woff") format('woff');
+  src: url("https://res.cloudinary.com/peachux/raw/upload/v1674043430/website/fonts/benzinextrabold.woff2") format('woff2');
 
-  src: url("app/assets/fonts/benzinmedium.ttf") format('ttf');
-  src: url("app/assets/fonts/benzinmedium.eot") format('eot');
-  src: url("app/assets/fonts/benzinmedium.woff") format('woff');
-  src: url("app/assets/fonts/benzinmedium.woff2") format('woff2');
+  src: url("https://res.cloudinary.com/peachux/raw/upload/v1674043431/website/fonts/benzinmedium.ttf") format('ttf');
+  src: url("https://res.cloudinary.com/peachux/raw/upload/v1674043432/website/fonts/benzinmedium.eot") format('eot');
+  src: url("https://res.cloudinary.com/peachux/raw/upload/v1674043430/website/fonts/benzinmedium.woff") format('woff');
+  src: url("https://res.cloudinary.com/peachux/raw/upload/v1674043430/website/fonts/benzinmedium.woff2") format('woff2');
 
-  src: url("app/assets/fonts/benzinregular.ttf") format('ttf');
-  src: url("app/assets/fonts/benzinregular.eot") format('eot');
-  src: url("app/assets/fonts/benzinregular.woff") format('woff');
-  src: url("app/assets/fonts/benzinregular.woff2") format('woff2');
+  src: url("https://res.cloudinary.com/peachux/raw/upload/v1674043431/website/fonts/benzinregular.ttf") format('ttf');
+  src: url("https://res.cloudinary.com/peachux/raw/upload/v1674043431/website/fonts/benzinregular.eot") format('eot');
+  src: url("https://res.cloudinary.com/peachux/raw/upload/v1674043430/website/fonts/benzinregular.woff") format('woff');
+  src: url("https://res.cloudinary.com/peachux/raw/upload/v1674043430/website/fonts/benzinregular.woff2") format('woff2');
 
-  src: url("app/assets/fonts/benzinsemibold.ttf") format('ttf');
-  src: url("app/assets/fonts/benzinsemibold.eo") format('eot');
-  src: url("app/assets/fonts/benzinsemibold.woff") format('woff');
-  src: url("app/assets/fonts/benzinsemibold.woff2") format('woff2');
+  src: url("https://res.cloudinary.com/peachux/raw/upload/v1674043431/website/fonts/benzinsemibold.ttf") format('ttf');
+  src: url("https://res.cloudinary.com/peachux/raw/upload/v1674043431/website/fonts/benzinsemibold.eot") format('eot');
+  src: url("https://res.cloudinary.com/peachux/raw/upload/v1674043430/website/fonts/benzinsemibold.woff") format('woff');
+  src: url("https://res.cloudinary.com/peachux/raw/upload/v1674043430/website/fonts/benzinsemibold.woff2") format('woff2');
 }
 
 // Default fonts
@@ -41,7 +41,7 @@ $headers-font: "Benzin", "sans-serif";
 // Style guide
 
 .heading-01, h1 {
-  font-family: $headers-font;
+  font-family: "Benzin";
   font-weight: 800;
   font-size: 6.5rem;
   line-height: 116.5px;
@@ -50,7 +50,7 @@ $headers-font: "Benzin", "sans-serif";
 }
 
 .heading-02, h2 {
-  font-family: $headers-font;
+  font-family: "Benzin";
   font-weight: 800;
   font-size: 4.5rem;
   line-height: 100px;
@@ -66,13 +66,15 @@ $headers-font: "Benzin", "sans-serif";
   letter-spacing: 0px;
 }
 
-.heading-03 {
-  font-family: $headers-font;
+.heading-03, h3 {
+  font-family: "Benzin";
   font-weight: 800;
   font-size: 3rem;
   line-height:67px;
   letter-spacing: 1px;
   text-transform: uppercase;
+  z-index: 3;
+  color: $body-inverse;
 }
 
 .sub-heading-03 {
