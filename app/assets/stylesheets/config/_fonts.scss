@@ -7,25 +7,30 @@
 
 @font-face {
   font-family: "Benzin";
-  src: url("app/assets/fonts/benzinbold.ttf");
-  src: url("app/assets/fonts/benzinbold.woff");
-  src: url("app/assets/fonts/benzinbold.woff2");
+  src: url("app/assets/fonts/benzinbold.ttf") format('ttf');
+  src: url("app/assets/fonts/benzinbold.eot") format('eot');
+  src: url("app/assets/fonts/benzinbold.woff") format('woff');
+  src: url("app/assets/fonts/benzinbold.woff2") format('woff2');
 
-  src: url("app/assets/fonts/benzinextrabold.ttf");
-  src: url("app/assets/fonts/benzinextrabold.woff");
-  src: url("app/assets/fonts/benzinextrabold.woff2");
+  src: url("app/assets/fonts/benzinextrabold.ttf") format('ttf');
+  src: url("app/assets/fonts/benzinextrabold.eot") format('eot');
+  src: url("app/assets/fonts/benzinextrabold.woff") format('woff');
+  src: url("app/assets/fonts/benzinextrabold.woff2") format('woff2');
 
-  src: url("app/assets/fonts/benzinmedium.ttf");
-  src: url("app/assets/fonts/benzinmedium.woff");
-  src: url("app/assets/fonts/benzinmedium.woff2");
+  src: url("app/assets/fonts/benzinmedium.ttf") format('ttf');
+  src: url("app/assets/fonts/benzinmedium.eot") format('eot');
+  src: url("app/assets/fonts/benzinmedium.woff") format('woff');
+  src: url("app/assets/fonts/benzinmedium.woff2") format('woff2');
 
-  src: url("app/assets/fonts/benzinregular.ttf");
-  src: url("app/assets/fonts/benzinregular.woff");
-  src: url("app/assets/fonts/benzinregular.woff2");
+  src: url("app/assets/fonts/benzinregular.ttf") format('ttf');
+  src: url("app/assets/fonts/benzinregular.eot") format('eot');
+  src: url("app/assets/fonts/benzinregular.woff") format('woff');
+  src: url("app/assets/fonts/benzinregular.woff2") format('woff2');
 
-  src: url("app/assets/fonts/benzinsemibold.ttf");
-  src: url("app/assets/fonts/benzinsemibold.woff");
-  src: url("app/assets/fonts/benzinsemibold.woff2");
+  src: url("app/assets/fonts/benzinsemibold.ttf") format('ttf');
+  src: url("app/assets/fonts/benzinsemibold.eo") format('eot');
+  src: url("app/assets/fonts/benzinsemibold.woff") format('woff');
+  src: url("app/assets/fonts/benzinsemibold.woff2") format('woff2');
 }
 
 // Default fonts
