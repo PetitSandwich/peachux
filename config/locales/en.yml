@@ -157,16 +157,20 @@ en:
 
     advantages:
       title: "Get your own Product Designer"
-      advantage1-title: "Bulding your service"
-      advantage1-description: "Website, app, flyer for your chess club? It’s our goal to ideate and find some nice responses for your business (and its revenue!)"
+      advantage1-title: "Product, UX, from idea to delivery"
+      advantage1-description: "It’s our goal to research, ideate and prototype some nice products or features for your business (and its revenue!)."
       advantage2-title: "Research and eXperience as goals"
       advantage2-description: "Your user is your future consumer, it is mandatory to know how he's drinking his coffee to propose the best userflows."
       advantage3-title: "Design System, graphic grammary"
       advantage3-description: "Ok... Sex is cool, but less cool as a documented and organized design system as we do."
       button: "How dare we?"
 
+    instagram:
+      title: "Projects"
+      button: "Insta baby!"
+
     newsletter:
-      title: "Don't miss out on any opportunity"
+      title: "Don't miss out anything!"
       description: "Stay tuned, you could have some real nice offers!"
       email-example: " example: name@company.com"
       email-placeholder: "name@company.com"

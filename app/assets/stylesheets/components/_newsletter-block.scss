@@ -9,6 +9,10 @@
   font-size: 48px;
 }
 @media only screen and (max-width: 600px) {
+  .newsletter-block h2 {
+    font-size: 2rem;
+    line-height: 3rem;
+  }
   .newsletter-text {
     width: 343px;
   }

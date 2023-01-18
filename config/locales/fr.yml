@@ -156,13 +156,17 @@ fr:
 
     advantages:
       title: "Offre-toi un Product Designer"
-      advantage1-title: "Constuire ton service"
-      advantage1-description: "Site, App, Tunnel de conversion, Flyer pour ton club d'échec ? C'est notre objectif d'itérer sur des réponses aux problématiques de ton business."
+      advantage1-title: "Product, UX, de l'idée à sa réalisation"
+      advantage1-description: "De la définition du problème jusqu'au prototype, c'est notre objectif d'itérer sur des réponses aux problématiques de ton business."
       advantage2-title: "Objectif Recherche, destination Expérience Utilisateur"
       advantage2-description: "Ton utilisateur est ton futur consommateur, il est primordial de savoir comment il boit son caféafin de lui proposer les meilleurs parcours."
       advantage3-title: "Design system, tokens, les guidelines du turfu"
       advantage3-description: "Un bon design system, une bonne documentation, ça ne mange pas de pain. Une grammaire visuelle et sémantique pour tous•tes."
       button: "Qui sont ces gens ?"
+
+    instagram:
+      title: "Projets"
+      button: "Insta baby!"
 
     newsletter:
       title: "Ne reste pas en chien, ne rate rien !"
