@@ -3,9 +3,16 @@
 @import url('https://fonts.googleapis.com/css2?family=Abril+Fatface&display=swap');
 @import "config/colors";
 
+// Font face Benzin
+
+@font-face {
+  font-family:"Benzin";
+  src: url(app/assets/fonts/benzinsemibold.woff2);
+}
+
 // Default fonts
 $body-font: "Poppins", "sans-serif";
-$headers-font: "Abril Fatface", "cursive";
+$headers-font: "Benzin";
 
 
 // Style guide

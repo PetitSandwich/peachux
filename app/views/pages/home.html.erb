@@ -2,10 +2,13 @@
   <div class="row title d-flex">
     <div class="col-md-7 col-sm-12 align-self-center claim">
       <h1 class="heading-01 mb-4 ">Product<br>UX/UI<br> Designer</h1>
-      <p class="sub-heading-03 mb-4" ><%= t 'pages.home.services' %></p>
+      <p class="sub-heading-03 mb-5" ><%= t 'pages.home.services' %></p>
       <a href="" class="button-accent" onclick= "Calendly.initPopupWidget({url:'https://calendly.com/ant-pecheux/15min'}) ;return false;"><%= t "pages.home.adopt" %></a>
     </div>
   </div>
 </div>
+
+<%= render "shared/selected-works" %>
 <%= render "shared/advantages-block" %>
+<%= render "shared/instagram-block" %>
 <%= render "shared/testimonials" %>

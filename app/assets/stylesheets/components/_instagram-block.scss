@@ -1,0 +1,10 @@
+.instagram-block {
+  background-color: #fff;
+  padding: 4rem 0rem 4rem 0rem;
+}
+@media only screen and (max-width: 600px) {
+  .instagram-block h2 {
+    font-size: 2rem;
+    line-height: 3rem;
+  }
+}
